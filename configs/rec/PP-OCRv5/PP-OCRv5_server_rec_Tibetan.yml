@@ -15,13 +15,13 @@ Global:
   save_inference_dir:
   use_visualdl: false
   infer_img: doc/imgs_words/ch/word_1.jpg
-  character_dict_path: ./ppocr/utils/dict/paddleocr_Tibetan_dict.txt
+  character_dict_path: ./BDRC/paddleocr_data/paddleocr_Tibetan_dict_complete.txt
   max_text_length: &max_text_length 500
   infer_mode: false
   use_space_char: true
   distributed: true
   save_res_path: ./output/rec/predicts_ppocrv5_Tibetan.txt
-  d2s_train_image_shape: [3, 48, 2048]
+  d2s_train_image_shape: [3, 96, 3200]
 
 
 Optimizer:
@@ -98,7 +98,7 @@ Train:
         - valid_ratio
   sampler:
     name: MultiScaleSampler
-    scales: [[2048, 32], [2048, 48], [2048, 64]]
+    scales: [[3200, 32], [3200, 64], [3200, 96]]
     first_bs: &bs 32
     fix_bs: false
     divided_factor: [8, 16] # w, h
@@ -121,7 +121,7 @@ Eval:
     - MultiLabelEncode:
         gtc_encode: NRTRLabelEncode
     - RecResizeImg:
-        image_shape: [3, 48, 2048]
+        image_shape: [3, 96, 3200]
     - KeepKeys:
         keep_keys:
         - image
