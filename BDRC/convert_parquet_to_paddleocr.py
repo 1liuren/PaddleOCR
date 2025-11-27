@@ -88,9 +88,9 @@ def convert_parquet_to_paddleocr(input_dir, output_dir, train_ratio=0.9):
                     continue
                 
                 # 保存图像
-                img_filename = f"{data_id}.jpg"
+                img_filename = f"{data_id}.png"
                 img_path = os.path.join(images_dir, img_filename)
-                img.save(img_path, 'JPEG')
+                img.save(img_path, 'PNG')
                 
                 # 保存数据信息
                 all_data.append({
