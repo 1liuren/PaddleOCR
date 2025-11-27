@@ -2,7 +2,7 @@ Global:
   model_name: PP-OCRv5_server_rec_Tibetan # To use static model for inference.
   debug: false
   use_gpu: true
-  epoch_num: 75
+  epoch_num: 100
   log_smooth_window: 20
   print_batch_step: 10
   save_model_dir: ./output/PP-OCRv5_server_rec_Tibetan
@@ -31,8 +31,8 @@ Optimizer:
   # clip_norm: 5.0
   lr:
     name: Cosine
-    learning_rate: 0.0005
-    warmup_epoch: 1
+    learning_rate: 0.001
+    warmup_epoch: 5
   regularizer:
     name: L2
     factor: 3.0e-05
@@ -87,7 +87,7 @@ Train:
     - DecodeImage:
         img_mode: BGR
         channel_first: false
-    # - RecAug:
+          #- RecAug:
     - MultiLabelEncode:
         gtc_encode: NRTRLabelEncode
     - KeepKeys:
@@ -100,7 +100,7 @@ Train:
   sampler:
     name: MultiScaleSampler
     scales: [[3200, 32], [3200, 64], [3200, 96]]
-    first_bs: &bs 32
+    first_bs: &bs 28
     fix_bs: false
     divided_factor: [8, 16] # w, h
     is_training: True
