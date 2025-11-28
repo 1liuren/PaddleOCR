@@ -14,6 +14,13 @@ import shutil
 from tqdm import tqdm
 import glob
 import random
+from multiprocessing import Pool, cpu_count
+from functools import partial
+
+# Windows 兼容性：设置多进程启动方法
+if sys.platform == 'win32':
+    import multiprocessing
+    multiprocessing.freeze_support()
 
 # 数据集名称映射：parquet 文件名 -> 图像目录名
 DATASET_NAME_MAPPING = {
@@ -81,21 +88,92 @@ def get_dataset_name_from_parquet(parquet_file):
     dataset_name = basename.split('-')[0]
     return dataset_name
 
-def convert_openpecha_to_paddleocr(input_dir, images_dirs, output_dir, train_ratio=0.9):
+def process_single_image(task_info):
     """
-    将 openpecha parquet 文件转换为 PaddleOCR 训练格式
+    处理单个图像转换任务（用于多进程）
+    
+    Args:
+        task_info: 包含任务信息的字典
+            - images_dirs: 图像根目录列表
+            - image_subdir: 图像子目录名
+            - filename: 文件名
+            - label: 文本标签
+            - dataset_name: 数据集名称
+            - output_images_dir: 输出图像目录
+    
+    Returns:
+        成功时返回数据字典，失败时返回 None
+    """
+    images_dirs = task_info['images_dirs']
+    image_subdir = task_info['image_subdir']
+    filename = task_info['filename']
+    label = task_info['label']
+    dataset_name = task_info['dataset_name']
+    output_images_dir = task_info['output_images_dir']
+    
+    try:
+        # 在所有图像目录中查找图像文件
+        img_path = find_image_file(images_dirs, image_subdir, filename)
+        
+        if img_path is None:
+            return None
+        
+        # 生成输出图像文件名（使用数据集名和原始文件名避免冲突）
+        output_img_filename = f"{dataset_name}_{filename}.png"
+        output_img_path = os.path.join(output_images_dir, output_img_filename)
+        
+        # 如果文件已存在，直接返回数据信息（避免重复处理）
+        if os.path.exists(output_img_path):
+            return {
+                'image_path': f"images/{output_img_filename}",
+                'transcription': label,
+                'id': f"{dataset_name}_{filename}"
+            }
+        
+        # 复制并转换图像为 PNG 格式
+        img = Image.open(img_path)
+        # 如果是 RGBA 模式，转换为 RGB
+        if img.mode == 'RGBA':
+            # 创建白色背景
+            rgb_img = Image.new('RGB', img.size, (255, 255, 255))
+            rgb_img.paste(img, mask=img.split()[3])  # 使用 alpha 通道作为 mask
+            img = rgb_img
+        elif img.mode != 'RGB':
+            img = img.convert('RGB')
+        
+        img.save(output_img_path, 'PNG')
+        
+        # 返回数据信息
+        return {
+            'image_path': f"images/{output_img_filename}",
+            'transcription': label,
+            'id': f"{dataset_name}_{filename}"
+        }
+    except Exception as e:
+        # 静默处理错误，返回 None
+        return None
+
+def convert_openpecha_to_paddleocr(input_dir, images_dirs, output_dir, train_ratio=0.9, num_workers=None):
+    """
+    将 openpecha parquet 文件转换为 PaddleOCR 训练格式（使用多进程加速）
     
     Args:
         input_dir: parquet 文件所在目录
         images_dirs: 图像文件所在根目录列表（例如：['./ocr_benchmark_images', './benchmark_images_2']）
         output_dir: 输出目录
         train_ratio: 训练集比例
+        num_workers: 进程数，默认为 CPU 核心数
     """
     # 确保 images_dirs 是列表
     if isinstance(images_dirs, str):
         images_dirs = [images_dirs]
     
+    # 设置进程数
+    if num_workers is None:
+        num_workers = cpu_count()
+    
     print(f"使用图像目录: {images_dirs}")
+    print(f"使用 {num_workers} 个进程进行并行处理")
     
     # 创建输出目录
     os.makedirs(output_dir, exist_ok=True)
@@ -112,22 +190,20 @@ def convert_openpecha_to_paddleocr(input_dir, images_dirs, output_dir, train_rat
     
     print(f"找到 {len(parquet_files)} 个 parquet 文件")
     
-    # 读取所有 parquet 文件
-    all_data = []
-    total_processed = 0
-    total_skipped = 0
+    # 第一步：读取所有 parquet 文件，收集所有任务
+    print("\n第一步：读取所有 parquet 文件，收集任务...")
+    all_tasks = []
     
     for parquet_file in parquet_files:
-        print(f"\n正在处理: {os.path.basename(parquet_file)}")
+        print(f"  读取: {os.path.basename(parquet_file)}")
         df = pd.read_parquet(parquet_file)
-        print(f"  包含 {len(df)} 条数据")
         
         # 获取数据集名称并映射到图像目录
         dataset_name = get_dataset_name_from_parquet(parquet_file)
         image_subdir = DATASET_NAME_MAPPING.get(dataset_name)
         
         if image_subdir is None:
-            print(f"  警告: 未找到数据集 '{dataset_name}' 的图像目录映射，跳过")
+            print(f"    警告: 未找到数据集 '{dataset_name}' 的图像目录映射，跳过")
             continue
         
         # 检查至少一个图像目录存在
@@ -139,77 +215,49 @@ def convert_openpecha_to_paddleocr(input_dir, images_dirs, output_dir, train_rat
                 break
         
         if found_image_dir is None:
-            print(f"  警告: 在所有图像目录中都未找到子目录 '{image_subdir}'，跳过")
+            print(f"    警告: 在所有图像目录中都未找到子目录 '{image_subdir}'，跳过")
             continue
         
-        print(f"  使用图像目录: {found_image_dir}")
+        print(f"    包含 {len(df)} 条数据，使用图像目录: {found_image_dir}")
         
-        # 处理每一行数据
-        for idx, row in tqdm(df.iterrows(), total=len(df), desc=f"处理 {dataset_name}"):
-            try:
-                # 获取文件名和标签
-                filename = str(row['filename'])
-                label = str(row['label'])
-                
-                # 在所有图像目录中查找图像文件
-                img_path = find_image_file(images_dirs, image_subdir, filename)
-                
-                if img_path is None:
-                    total_skipped += 1
-                    if total_skipped <= 10:  # 只打印前10个警告
-                        print(f"\n警告: 未找到图像文件: {filename} (在 {image_subdir})")
-                    continue
-                
-                # 生成输出图像文件名（使用数据集名和原始文件名避免冲突）
-                output_img_filename = f"{dataset_name}_{filename}.png"
-                output_img_path = os.path.join(output_images_dir, output_img_filename)
-                
-                # 如果文件已存在，跳过（避免重复处理）
-                if os.path.exists(output_img_path):
-                    # 检查是否已经在 all_data 中
-                    existing_id = f"{dataset_name}_{filename}"
-                    if not any(item['id'] == existing_id for item in all_data):
-                        all_data.append({
-                            'image_path': f"images/{output_img_filename}",
-                            'transcription': label,
-                            'id': existing_id
-                        })
-                        total_processed += 1
-                    continue
-                
-                # 复制并转换图像为 PNG 格式
-                try:
-                    img = Image.open(img_path)
-                    # 如果是 RGBA 模式，转换为 RGB
-                    if img.mode == 'RGBA':
-                        # 创建白色背景
-                        rgb_img = Image.new('RGB', img.size, (255, 255, 255))
-                        rgb_img.paste(img, mask=img.split()[3])  # 使用 alpha 通道作为 mask
-                        img = rgb_img
-                    elif img.mode != 'RGB':
-                        img = img.convert('RGB')
-                    
-                    img.save(output_img_path, 'PNG')
-                except Exception as e:
-                    print(f"\n警告: 无法处理图像 {img_path}: {e}")
-                    total_skipped += 1
-                    continue
-                
-                # 保存数据信息
-                all_data.append({
-                    'image_path': f"images/{output_img_filename}",
-                    'transcription': label,
-                    'id': f"{dataset_name}_{filename}"
-                })
-                
-                total_processed += 1
-                
-            except Exception as e:
-                print(f"\n处理第 {idx} 行时出错: {e}")
-                total_skipped += 1
-                continue
+        # 收集所有任务
+        for idx, row in df.iterrows():
+            filename = str(row['filename'])
+            label = str(row['label'])
+            
+            task_info = {
+                'images_dirs': images_dirs,
+                'image_subdir': image_subdir,
+                'filename': filename,
+                'label': label,
+                'dataset_name': dataset_name,
+                'output_images_dir': output_images_dir
+            }
+            all_tasks.append(task_info)
     
-    print(f"\n总共处理了 {total_processed} 条数据")
+    print(f"\n总共收集了 {len(all_tasks)} 个任务")
+    
+    # 第二步：使用多进程并行处理所有任务
+    print(f"\n第二步：使用 {num_workers} 个进程并行处理图像转换...")
+    all_data = []
+    total_skipped = 0
+    
+    with Pool(processes=num_workers) as pool:
+        # 使用 tqdm 显示进度
+        results = list(tqdm(
+            pool.imap(process_single_image, all_tasks),
+            total=len(all_tasks),
+            desc="处理图像"
+        ))
+    
+    # 收集成功的结果
+    for result in results:
+        if result is not None:
+            all_data.append(result)
+        else:
+            total_skipped += 1
+    
+    print(f"\n总共处理了 {len(all_data)} 条数据")
     print(f"跳过了 {total_skipped} 条数据")
     
     if len(all_data) == 0:
@@ -263,8 +311,10 @@ if __name__ == "__main__":
                         help='输出目录')
     parser.add_argument('--train_ratio', type=float, default=0.9,
                         help='训练集比例 (默认: 0.9)')
+    parser.add_argument('--num_workers', type=int, default=None,
+                        help='并行处理的进程数 (默认: CPU核心数)')
     
     args = parser.parse_args()
     
-    convert_openpecha_to_paddleocr(args.input_dir, args.images_dirs, args.output_dir, args.train_ratio)
+    convert_openpecha_to_paddleocr(args.input_dir, args.images_dirs, args.output_dir, args.train_ratio, args.num_workers)
 
