@@ -1414,7 +1414,8 @@ class PPHGNetV2(TheseusLayer):
             #     x = F.adaptive_avg_pool2d(x, [1, 40])
             # else:
             #     x = F.avg_pool2d(x, [3, 2])
-            x = F.adaptive_avg_pool2d(x, [1, x.shape[3]])
+            # x = F.adaptive_avg_pool2d(x, [1, x.shape[3]])
+            x = paddle.mean(x, axis=2, keepdim=True)
         return x
 
 
