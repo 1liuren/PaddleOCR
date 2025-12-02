@@ -1,12 +1,12 @@
 Global:
-  model_name: PP-OCRv5_server_rec_Tibetan # To use static model for inference.
+  model_name: PP-OCRv5_server_rec # To use static model for inference.
   debug: false
   use_gpu: true
-  epoch_num: 100
+  epoch_num: 75
   log_smooth_window: 20
   print_batch_step: 10
-  save_model_dir: ./output/PP-OCRv5_server_rec_Tibetan
-  save_epoch_step: 10
+  save_model_dir: ./output/PP-OCRv5_server_rec
+  save_epoch_step: 1
   eval_batch_step: [0, 2000]
   cal_metric_during_train: true
   calc_epoch_interval: 1
@@ -15,24 +15,23 @@ Global:
   save_inference_dir:
   use_visualdl: false
   infer_img: doc/imgs_words/ch/word_1.jpg
-  character_dict_path: ./BDRC/paddleocr_data/tibetan_char_dict_generated.txt
-  max_text_length: &max_text_length 500
+  character_dict_path: ./ppocr/utils/dict/ppocrv5_dict.txt
+  max_text_length: &max_text_length 25
   infer_mode: false
   use_space_char: true
   distributed: true
-  save_res_path: ./output/rec/predicts_ppocrv5_Tibetan.txt
-  d2s_train_image_shape: [3, 96, 3200]
+  save_res_path: ./output/rec/predicts_ppocrv5.txt
+  d2s_train_image_shape: [3, 48, 320]
 
 
 Optimizer:
   name: Adam
   beta1: 0.9
   beta2: 0.999
-  clip_norm: 5.0
   lr:
     name: Cosine
     learning_rate: 0.0005
-    warmup_epoch: 5
+    warmup_epoch: 1
   regularizer:
     name: L2
     factor: 3.0e-05
@@ -79,15 +78,15 @@ Train:
   dataset:
     name: MultiScaleDataSet
     ds_width: false
-    data_dir: ./BDRC/paddleocr_data/
+    data_dir: ./ocr_rec_dataset_examples/
     ext_op_transform_idx: 1
     label_file_list:
-    - ./BDRC/paddleocr_data/train.txt
+    - ./ocr_rec_dataset_examples/train.txt  
     transforms:
     - DecodeImage:
         img_mode: BGR
         channel_first: false
-          #- RecAug:
+    - RecAug:
     - MultiLabelEncode:
         gtc_encode: NRTRLabelEncode
     - KeepKeys:
@@ -99,8 +98,8 @@ Train:
         - valid_ratio
   sampler:
     name: MultiScaleSampler
-    scales: [[3200, 32], [3200, 64], [3200, 96]]
-    first_bs: &bs 28
+    scales: [[320, 32], [320, 48], [320, 64]]
+    first_bs: &bs 128
     fix_bs: false
     divided_factor: [8, 16] # w, h
     is_training: True
@@ -112,9 +111,9 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: ./BDRC/paddleocr_data/
+    data_dir: ./ocr_rec_dataset_examples/
     label_file_list:
-    - ./BDRC/paddleocr_data/val.txt
+    - ./ocr_rec_dataset_examples/val.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -122,7 +121,7 @@ Eval:
     - MultiLabelEncode:
         gtc_encode: NRTRLabelEncode
     - RecResizeImg:
-        image_shape: [3, 96, 3200]
+        image_shape: [3, 48, 320]
     - KeepKeys:
         keep_keys:
         - image
@@ -133,5 +132,5 @@ Eval:
   loader:
     shuffle: false
     drop_last: false
-    batch_size_per_card: 32
+    batch_size_per_card: 128
     num_workers: 4

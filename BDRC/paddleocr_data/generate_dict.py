@@ -29,12 +29,12 @@ def generate_dict(file_list, output_path):
     print(f"Sample characters: {sorted_chars[:10]}")
 
 if __name__ == "__main__":
-    train_file = "BDRC/paddleocr_data/train.txt"
+    train_file = "openpecha/paddleocr_data/train.txt"
     # We should also include val characters if possible, but train is critical
     # Assuming val.txt exists in the same dir
-    val_file = "BDRC/paddleocr_data/val.txt"
+    val_file = "openpecha/paddleocr_data/val.txt"
     
-    output_dict = "BDRC/paddleocr_data/tibetan_char_dict_generated.txt"
+    output_dict = "openpecha/paddleocr_data/openpecha_dict_Tibetan.txt"
     
     generate_dict([train_file, val_file], output_dict)
 

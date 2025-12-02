@@ -5,8 +5,8 @@ Global:
   epoch_num: 100
   log_smooth_window: 20
   print_batch_step: 10
-  save_model_dir: ./output/PP-OCRv5_server_rec_Tibetan
-  save_epoch_step: 10
+  save_model_dir: ./output/PP-OCRv5_server_rec_Tibetan_openpecha
+  save_epoch_step: 5
   eval_batch_step: [0, 2000]
   cal_metric_during_train: true
   calc_epoch_interval: 1
@@ -15,13 +15,13 @@ Global:
   save_inference_dir:
   use_visualdl: false
   infer_img: doc/imgs_words/ch/word_1.jpg
-  character_dict_path: ./BDRC/paddleocr_data/tibetan_char_dict_generated.txt
+  character_dict_path: ./openpecha/paddleocr_data/openpecha_dict_Tibetan_new.txt
   max_text_length: &max_text_length 500
   infer_mode: false
   use_space_char: true
   distributed: true
-  save_res_path: ./output/rec/predicts_ppocrv5_Tibetan.txt
-  d2s_train_image_shape: [3, 96, 3200]
+  save_res_path: ./output/rec/predicts_ppocrv5_Tibetan_openpecha.txt
+  d2s_train_image_shape: [3, 96, 1600]
 
 
 Optimizer:
@@ -32,7 +32,7 @@ Optimizer:
   lr:
     name: Cosine
     learning_rate: 0.0005
-    warmup_epoch: 5
+    warmup_epoch: 1
   regularizer:
     name: L2
     factor: 3.0e-05
@@ -79,10 +79,10 @@ Train:
   dataset:
     name: MultiScaleDataSet
     ds_width: false
-    data_dir: ./BDRC/paddleocr_data/
+    data_dir: ./openpecha/paddleocr_data/
     ext_op_transform_idx: 1
     label_file_list:
-    - ./BDRC/paddleocr_data/train.txt
+    - ./openpecha/paddleocr_data/train.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -99,7 +99,7 @@ Train:
         - valid_ratio
   sampler:
     name: MultiScaleSampler
-    scales: [[3200, 32], [3200, 64], [3200, 96]]
+    scales: [[1600, 32], [1600, 64], [1600, 96]]
     first_bs: &bs 28
     fix_bs: false
     divided_factor: [8, 16] # w, h
@@ -112,9 +112,9 @@ Train:
 Eval:
   dataset:
     name: SimpleDataSet
-    data_dir: ./BDRC/paddleocr_data/
+    data_dir: ./openpecha/paddleocr_data/
     label_file_list:
-    - ./BDRC/paddleocr_data/val.txt
+    - ./openpecha/paddleocr_data/val.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -122,7 +122,7 @@ Eval:
     - MultiLabelEncode:
         gtc_encode: NRTRLabelEncode
     - RecResizeImg:
-        image_shape: [3, 96, 3200]
+        image_shape: [3, 96, 1600]
     - KeepKeys:
         keep_keys:
         - image
