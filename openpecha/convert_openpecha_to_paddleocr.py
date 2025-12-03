@@ -309,7 +309,7 @@ if __name__ == "__main__":
                         help='图像文件所在根目录列表（可指定多个）')
     parser.add_argument('--output_dir', type=str, default='./paddleocr_data',
                         help='输出目录')
-    parser.add_argument('--train_ratio', type=float, default=0.9,
+    parser.add_argument('--train_ratio', type=float, default=0.95,
                         help='训练集比例 (默认: 0.9)')
     parser.add_argument('--num_workers', type=int, default=None,
                         help='并行处理的进程数 (默认: CPU核心数)')
