@@ -148,15 +148,15 @@ class ImgDataset(Dataset):
 
     def write(self, name: str, image: np.ndarray, label: str):
         """
-        Write an image as JPEG file and update the JSON metadata.
+        Write an image as PNG file and update the JSON metadata.
 
         Args:
             name (str): Unique identifier for the image
             image (np.ndarray): Image data as numpy array
             label (str): Text label corresponding to the image
         """
-        img_path = os.path.join(self._img_dir, name + ".jpg")
-        cv2.imwrite(img_path, image, self.encode_param())
+        img_path = os.path.join(self._img_dir, name + ".png")
+        cv2.imwrite(img_path, image)
         self._data["labels"][name] = label
 
         height, width = image.shape[:2]

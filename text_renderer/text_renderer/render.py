@@ -239,6 +239,14 @@ class Render:
             )
 
         merged_bbox = BBox.from_bboxes(text_mask_bboxes)
+
+        # Add check for image size to avoid OpenCV error
+        # OpenCV remap has a limit of SHRT_MAX (32767)
+        if merged_bbox.width > 20000 or merged_bbox.height > 20000:
+             # logger.debug(f"Generated text too large: {merged_bbox.size}, retrying...")
+             from text_renderer.utils.errors import RetryError
+             raise RetryError(f"Generated text too large: {merged_bbox.size}")
+
         merged_text_mask = transparent_img(merged_bbox.size)
         for text_mask, bbox in zip(text_masks, text_mask_bboxes):
             merged_text_mask.paste(text_mask, bbox.left_top)

@@ -38,7 +38,7 @@ tibetan_font_cfg = dict(
     font_size=(30, 31),
 )
 
-perspective_transform = NormPerspectiveTransformCfg(20, 20, 1.5)
+perspective_transform = NormPerspectiveTransformCfg(20, 20, 1.1)
 
 def base_cfg(
     name: str, corpus, corpus_effects=None, layout_effects=None, layout=None, gray=True, num_image=1000

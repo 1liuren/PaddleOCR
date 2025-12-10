@@ -102,14 +102,14 @@ def process_book(args):
                     continue
                     
                 # 保存裁剪图片
-                # 构造文件名: lang_book_imgname_idx.jpg
+                # 构造文件名: lang_book_imgname_idx.png
                 # 移除书名中的空格等特殊字符以避免问题
                 safe_book_name = book_dir.name.replace(' ', '_')
-                save_name = f"{lang}_{safe_book_name}_{img_path.stem}_{idx}.jpg"
+                save_name = f"{lang}_{safe_book_name}_{img_path.stem}_{idx}.png"
                 save_path = images_dir / save_name
                 
                 # cv2.imwrite 不支持中文路径，使用 cv2.imencode + tofile
-                success, encoded_img = cv2.imencode('.jpg', crop_img)
+                success, encoded_img = cv2.imencode('.png', crop_img)
                 if success:
                     encoded_img.tofile(str(save_path))
                     
