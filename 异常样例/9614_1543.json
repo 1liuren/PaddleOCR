@@ -1,0 +1,1833 @@
+{
+  "project_id": 1121,
+  "project_name": "LTxxOCR+分割",
+  "create_date": "2025-12-12 10:32:31",
+  "version": "1",
+  "attrs": [],
+  "entries": [
+    {
+      "entry_index": 1,
+      "entry_items": [
+        {
+          "content": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_银行卡_2153张_验收通过/票据_银行卡_00079.jpg",
+          "extra": "3456,2703",
+          "name": "票据_银行卡_00079.jpg",
+          "type": "image",
+          "entry_id": 181213
+        }
+      ],
+      "main_entry": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_银行卡_2153张_验收通过/票据_银行卡_00079.jpg",
+      "entry_anns": [],
+      "instance_anns": [
+        {
+          "track_id": "69707",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "R"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2549.183159973443,
+                "y": 609.7140583238283,
+                "z": 0,
+                "_uuid": "VZRv4d0creMukHyCXrecq",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2654.6146643741167,
+                "y": 609.7140583238283,
+                "z": 0,
+                "_uuid": "1THq8pqm1gpEIlSP4njfe",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2643.318431759759,
+                "y": 703.8493301101446,
+                "z": 0,
+                "_uuid": "bq8GiUWM67SqBlKVJ74rs",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2540,
+                "y": 705,
+                "z": 0,
+                "_uuid": "5fIni1ATDgKojv-18vRnr",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 2540,
+              "y": 570,
+              "width": 445,
+              "height": 138
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69708",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "中国建设银行"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 846.6255902558761,
+                "y": 743.9410111227533,
+                "z": 0,
+                "_uuid": "XHuG153h7EAw1O0B58KTu",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2339.604690286733,
+                "y": 773.2673863019307,
+                "z": 0,
+                "_uuid": "6ydQFfdnWSmf-D3xRZl5K",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2339.604690286733,
+                "y": 933.2294327338083,
+                "z": 0,
+                "_uuid": "2vRi7S6L2Gh9048Pb6Xha",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 846.6255902558761,
+                "y": 906.5690916618287,
+                "z": 0,
+                "_uuid": "4NZ_Xpi8vbd6jZhRvd3kX",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 837,
+              "y": 709,
+              "width": 1513,
+              "height": 252
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69709",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "China Construction Bank"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 861,
+                "y": 910
+              },
+              {
+                "x": 2196,
+                "y": 936
+              },
+              {
+                "x": 2194,
+                "y": 1048
+              },
+              {
+                "x": 859,
+                "y": 1023
+              }
+            ],
+            "bbox": {
+              "x": 859,
+              "y": 910,
+              "width": 1337,
+              "height": 138
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69710",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "R"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1410,
+                "y": 1076
+              },
+              {
+                "x": 1450,
+                "y": 1076
+              },
+              {
+                "x": 1450,
+                "y": 1110
+              },
+              {
+                "x": 1410,
+                "y": 1110
+              }
+            ],
+            "bbox": {
+              "x": 1410,
+              "y": 1076,
+              "width": 40,
+              "height": 34
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69711",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "龙卡通（储蓄卡）"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1028,
+                "y": 1091,
+                "z": 0,
+                "_uuid": "NWJ6__8L_cNw7iOiFiW5f",
+                "_attrs": []
+              },
+              {
+                "x": 1909.173152929512,
+                "y": 1118.5937883544448,
+                "z": 0,
+                "_uuid": "kZQZrEz8lTrSvnMDOUEsT",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1911.7574211441733,
+                "y": 1252.9757355168283,
+                "z": 0,
+                "_uuid": "ij803Vq3CXBGwwcMeS8A4",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1025,
+                "y": 1244,
+                "z": 0,
+                "_uuid": "Z63vKIzl2Mr3qAM5Z753D",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 1025,
+              "y": 1091,
+              "width": 1951,
+              "height": 189
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 32623,
+          "user_name": "2D马博超"
+        },
+        {
+          "track_id": "69712",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "6217 0030 3010 5100 679"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 585,
+                "y": 1477,
+                "z": 0,
+                "_uuid": "_RmwTpR6PvdWf1iJXQCt0",
+                "_attrs": []
+              },
+              {
+                "x": 2744.0815724083204,
+                "y": 1541.0028105898734,
+                "z": 0,
+                "_uuid": "EYaqwbg6J8JwzjwdR-ush",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2709.2999291145943,
+                "y": 1727.3330425205481,
+                "z": 0,
+                "_uuid": "N-q1MYeypOyttFWdUId6V",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 581,
+                "y": 1671,
+                "z": 0,
+                "_uuid": "_xwLkArJkdePhHwNpAegs",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 581,
+              "y": 1477,
+              "width": 1801,
+              "height": 236
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 32958,
+          "user_name": "王嘉怡"
+        },
+        {
+          "track_id": "69714",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "MONTH/YEAR"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1559,
+                "y": 1738
+              },
+              {
+                "x": 1899,
+                "y": 1747
+              },
+              {
+                "x": 1898,
+                "y": 1796
+              },
+              {
+                "x": 1558,
+                "y": 1788
+              }
+            ],
+            "bbox": {
+              "x": 1558,
+              "y": 1738,
+              "width": 341,
+              "height": 58
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69715",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "CCB HN"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 855.4395365066354,
+                "y": 1789.4572817830247,
+                "z": 0,
+                "_uuid": "-3L9yjoDXTkFMR6psLCJ6",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1372.8009297846436,
+                "y": 1797.1030166590542,
+                "z": 0,
+                "_uuid": "ese64Ac2oJXG3TSuQEfxU",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1370.2523514926338,
+                "y": 1904.14330492347,
+                "z": 0,
+                "_uuid": "Sr7xjBjclgwizxyXLwqLP",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 835.0509101705562,
+                "y": 1883.7546785873908,
+                "z": 0,
+                "_uuid": "JDHEbn4Z9zdTI-1_Q24B8",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 843,
+              "y": 1766,
+              "width": 719,
+              "height": 165
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69716",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "11/2024"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1594,
+                "y": 1798
+              },
+              {
+                "x": 2037,
+                "y": 1808
+              },
+              {
+                "x": 2034,
+                "y": 1920
+              },
+              {
+                "x": 1591,
+                "y": 1911
+              }
+            ],
+            "bbox": {
+              "x": 1591,
+              "y": 1798,
+              "width": 446,
+              "height": 122
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69717",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "THRU"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1378,
+                "y": 1856
+              },
+              {
+                "x": 1527,
+                "y": 1861
+              },
+              {
+                "x": 1526,
+                "y": 1911
+              },
+              {
+                "x": 1377,
+                "y": 1906
+              }
+            ],
+            "bbox": {
+              "x": 1377,
+              "y": 1856,
+              "width": 150,
+              "height": 55
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69718",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "UnionPay"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2350,
+                "y": 1854
+              },
+              {
+                "x": 2862,
+                "y": 1892
+              },
+              {
+                "x": 2852,
+                "y": 2030
+              },
+              {
+                "x": 2340,
+                "y": 1992
+              }
+            ],
+            "bbox": {
+              "x": 2340,
+              "y": 1854,
+              "width": 522,
+              "height": 176
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69719",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "ATM"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 515,
+                "y": 1902
+              },
+              {
+                "x": 729,
+                "y": 1905
+              },
+              {
+                "x": 728,
+                "y": 2002
+              },
+              {
+                "x": 514,
+                "y": 2000
+              }
+            ],
+            "bbox": {
+              "x": 514,
+              "y": 1902,
+              "width": 215,
+              "height": 100
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69720",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "银联"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2548.6309590133715,
+                "y": 1995.5544628251437,
+                "z": 0,
+                "_uuid": "qRjrH9MdY4Ekd28E47bmu",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2801.8853769318766,
+                "y": 2007.8087088534585,
+                "z": 0,
+                "_uuid": "zl07BibmGoqsUJVad_E5d",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2787.5887565655094,
+                "y": 2114.0121744321864,
+                "z": 0,
+                "_uuid": "9sA1iT9SgT_kQXkIR3tbn",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2524.1224669567423,
+                "y": 2103.800302741924,
+                "z": 0,
+                "_uuid": "YL5JrVGLaScjma9gauC5Y",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 2521,
+              "y": 1986,
+              "width": 285,
+              "height": 133
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69808",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "VALID"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1387.965357043211,
+                "y": 1806.1558719063396,
+                "_uuid": "4OSXU68QYAyrX2BT7jOqw",
+                "_attrs": [],
+                "$coordKey": "jPV5i-fEZqqajJUVDL8E_"
+              },
+              {
+                "x": 1538.2066375647123,
+                "y": 1809.959448628403,
+                "_uuid": "hNFnPr71DjxFnZNZ2Kiba",
+                "_attrs": [],
+                "$coordKey": "x0ErsBWaZAQp4SOJ8bulX"
+              },
+              {
+                "x": 1534.403060842649,
+                "y": 1859.4059460152262,
+                "_uuid": "koZ6XJOAUxIqhnFPCDISv",
+                "_attrs": [],
+                "$coordKey": "3F6dgK1FuYoSSgf0cLHxt"
+              },
+              {
+                "x": 1386.0635686821793,
+                "y": 1849.8970042100677,
+                "_uuid": "jD2BR4g7ufGxGETfjQIYz",
+                "_attrs": [],
+                "$coordKey": "pZvzc8Dj0sfySZTHYNRHp"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "Re1hJa4FeUMe6rrpT3brb",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 1386.063569,
+              "y": 1806.155872,
+              "width": 152.1430690000002,
+              "height": 53.25007400000004
+            }
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69809",
+          "group_id": "",
+          "label": "位置框",
+          "attrs": [],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 285.75647053196656,
+                "y": 502.59865207451537,
+                "_uuid": "NmFym5d7uRlkMyKLWFzTr",
+                "_attrs": [],
+                "$coordKey": "DtGaFvgIHq0b-_UXhy2qd"
+              },
+              {
+                "x": 3082.0920723574795,
+                "y": 547.1262890462592,
+                "_uuid": "P__yQTJqOz2IeQmeab1co",
+                "_attrs": [],
+                "$coordKey": "mNAIPBIrmdA6aoimnd8Uy"
+              },
+              {
+                "x": 2997.4895621111664,
+                "y": 2288.1568946414436,
+                "_uuid": "PC9a26l1mn8VMu6jxB0uP",
+                "_attrs": [],
+                "$coordKey": "C94BEqwu3qXTBPsyd4WDH"
+              },
+              {
+                "x": 290.209234229141,
+                "y": 2194.6488570007814,
+                "_uuid": "erpaYO-fPlDBwQWAfYz3v",
+                "_attrs": [],
+                "$coordKey": "X0p9nN_v3eWb8q-8YdhPC"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "_IQDmL31ky7j883-MEVbF",
+            "_layerIndex": 0,
+            "bbox": {
+              "x": 285.756471,
+              "y": 502.598652,
+              "width": 2796.3356009999998,
+              "height": 1785.558243
+            }
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69811",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "HN"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2707.621205056248,
+                "y": 975.3681222416359,
+                "_uuid": "mLirwJndCSkkTlYvYcNq3",
+                "_attrs": [],
+                "$coordKey": "3j6TwCrccxBCtZcfrwfil"
+              },
+              {
+                "x": 2817.374666588016,
+                "y": 975.3681222416359,
+                "_uuid": "XRdxEklsiNThY2rDxXFlm",
+                "_attrs": [],
+                "$coordKey": "Y4Dg8BZiw4CASQqsS8kB4"
+              },
+              {
+                "x": 2814.7614889324977,
+                "y": 1025.0184976964833,
+                "_uuid": "jvI4ygy2_cy1TVzOYRdxR",
+                "_attrs": [],
+                "$coordKey": "SBxFnCWXxVgcudKKeDtle"
+              },
+              {
+                "x": 2712.8475603672846,
+                "y": 1022.4053200409651,
+                "_uuid": "SZZ2-08fHJrXKtu2-dDCJ",
+                "_attrs": [],
+                "$coordKey": "5btEtwoP8s9jv6MP5MbpC",
+                "$stickyKey": ""
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "VT5xckvfrP6ZHL0xsunSH",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 2707.621205,
+              "y": 975.368122,
+              "width": 109.75346200000013,
+              "height": 49.65037599999994
+            }
+          },
+          "shape": "polygon",
+          "user_id": 32623,
+          "user_name": "2D马博超"
+        },
+        {
+          "track_id": "69813",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "LONG CARD DEBIT CARD"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1924.6787622174795,
+                "y": 1149.6050069303794,
+                "_uuid": "atFHvk7S8kx-K1ftwZa4W",
+                "_attrs": [],
+                "$coordKey": "fkQlt2_2uz4rblFxks8m-"
+              },
+              {
+                "x": 2960.97031629663,
+                "y": 1167.694884433008,
+                "_uuid": "sq_U6B5s6W0naybqYzuxj",
+                "_attrs": [],
+                "$coordKey": "0Ioqhn30sc-5BVkQYZFPT"
+              },
+              {
+                "x": 2958.3860480819685,
+                "y": 1268.4813448047955,
+                "_uuid": "kT9aq9jN1qaDc0dgLu0DD",
+                "_attrs": [],
+                "$coordKey": "iuAF7YYdHGssj3pk0BLfO"
+              },
+              {
+                "x": 1927.2630304321408,
+                "y": 1237.4701262288609,
+                "_uuid": "S8miYKGoJ5YuP5YQeBsX0",
+                "_attrs": [],
+                "$coordKey": "9AjLrVyaf-Pg24q0q0gu6"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "i9zr74l_gWPgGyixkn_k3",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 1924.678762,
+              "y": 1149.605007,
+              "width": 1036.291554,
+              "height": 118.87633800000003
+            }
+          },
+          "shape": "polygon",
+          "user_id": 32623,
+          "user_name": "2D马博超"
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "entry_items": [
+        {
+          "content": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_银行卡_2153张_验收通过/票据_银行卡_00080.jpg",
+          "extra": "4829,2742",
+          "name": "票据_银行卡_00080.jpg",
+          "type": "image",
+          "entry_id": 181214
+        }
+      ],
+      "main_entry": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_银行卡_2153张_验收通过/票据_银行卡_00080.jpg",
+      "entry_anns": [],
+      "instance_anns": [
+        {
+          "track_id": "69792",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "R"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 3693,
+                "y": 235,
+                "z": 0,
+                "_uuid": "LHRmHjP7biZTFUcdv_sBh",
+                "_attrs": []
+              },
+              {
+                "x": 3813.450515648078,
+                "y": 234.1385508491363,
+                "z": 0,
+                "_uuid": "JYNWj9HDdCwS9FkQYRzhD",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 3813.450515648078,
+                "y": 330.4979516403813,
+                "z": 0,
+                "_uuid": "nSYpjbk3kGQWaTVcqCl3X",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 3688,
+                "y": 323,
+                "z": 0,
+                "_uuid": "zQSAckQFgq49G3Izd22Hp",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 3688,
+              "y": 235,
+              "width": 419,
+              "height": 114
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69793",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "中国建设银行"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1353.0255149934305,
+                "y": 366.7232902837063,
+                "z": 0,
+                "_uuid": "0MC3HXVX7wHYx_42unf3h",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 3429.9449305440758,
+                "y": 405.3636515032532,
+                "z": 0,
+                "_uuid": "qfGxvf_buulZg58g8uyI-",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 3415.4547950867454,
+                "y": 608.2255479058744,
+                "z": 0,
+                "_uuid": "lVEvpns8BSVk4Mr4gR4g3",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1320,
+                "y": 583,
+                "z": 0,
+                "_uuid": "Q7AMReFSxd7ONByzBhNbo",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 1320,
+              "y": 320,
+              "width": 2124,
+              "height": 322
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69794",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "China Construction Bank"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1323,
+                "y": 560
+              },
+              {
+                "x": 3170,
+                "y": 606
+              },
+              {
+                "x": 3167,
+                "y": 748
+              },
+              {
+                "x": 1319,
+                "y": 703
+              }
+            ],
+            "bbox": {
+              "x": 1319,
+              "y": 560,
+              "width": 1851,
+              "height": 188
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69795",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "龙卡通（储蓄卡）"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1520,
+                "y": 794,
+                "z": 0,
+                "_uuid": "_bOQtTBSAwRPPkvbqo5QD",
+                "_attrs": []
+              },
+              {
+                "x": 2820.839783108475,
+                "y": 835.492773456953,
+                "z": 0,
+                "_uuid": "zsP2kdbv-arboDVhcDNMX",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2833.1409523350694,
+                "y": 1015.9099221136713,
+                "z": 0,
+                "_uuid": "b9iEkZ4fuUVo87Zlfrg7W",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1516,
+                "y": 998,
+                "z": 0,
+                "_uuid": "9TMMABd5sE5bbTsypcJjq",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 1516,
+              "y": 794,
+              "width": 2896,
+              "height": 262
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 32623,
+          "user_name": "2D马博超"
+        },
+        {
+          "track_id": "69796",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "6217 0031 0000 0889 427"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 617.1902127211567,
+                "y": 1350.9848636734882,
+                "z": 0,
+                "_uuid": "MyMaTT0be3mfe95xD6f86",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 4374.753660104201,
+                "y": 1438.3900804053317,
+                "z": 0,
+                "_uuid": "q7MLHysuLJx67wAq0-Pnm",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 4352.274704115894,
+                "y": 1700.644566935579,
+                "z": 0,
+                "_uuid": "WlksrGmX3jUz5v1mOQMbk",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 588,
+                "y": 1606,
+                "z": 0,
+                "_uuid": "t6G0mDdOxJIsCnqoa1G6q",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 588,
+              "y": 1321,
+              "width": 1528,
+              "height": 321
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69799",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "MONTH/YEAR"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2296,
+                "y": 1722
+              },
+              {
+                "x": 2856,
+                "y": 1736
+              },
+              {
+                "x": 2854,
+                "y": 1815
+              },
+              {
+                "x": 2294,
+                "y": 1800
+              }
+            ],
+            "bbox": {
+              "x": 2294,
+              "y": 1722,
+              "width": 562,
+              "height": 93
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69800",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "CCB ST"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1014,
+                "y": 1771,
+                "z": 0
+              },
+              {
+                "x": 1851,
+                "y": 1785,
+                "z": 0
+              },
+              {
+                "x": 1847,
+                "y": 1981,
+                "z": 0
+              },
+              {
+                "x": 1011,
+                "y": 1967,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 1011,
+              "y": 1771,
+              "width": 840,
+              "height": 210
+            }
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69801",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "05/23"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2391,
+                "y": 1801
+              },
+              {
+                "x": 3014,
+                "y": 1809
+              },
+              {
+                "x": 3011,
+                "y": 2016
+              },
+              {
+                "x": 2388,
+                "y": 2007
+              }
+            ],
+            "bbox": {
+              "x": 2388,
+              "y": 1801,
+              "width": 626,
+              "height": 215
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69802",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "VALID"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2002,
+                "y": 1830
+              },
+              {
+                "x": 2257,
+                "y": 1836
+              },
+              {
+                "x": 2255,
+                "y": 1919
+              },
+              {
+                "x": 2000,
+                "y": 1914
+              }
+            ],
+            "bbox": {
+              "x": 2000,
+              "y": 1830,
+              "width": 257,
+              "height": 89
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69803",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "UnionPay"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 3624.412363613723,
+                "y": 1933.8101667671162,
+                "z": 0,
+                "_uuid": "OC3GJjmk7SJVYsHMIaWVZ",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 4492,
+                "y": 1952,
+                "z": 0,
+                "_uuid": "MxOky-kNKb0dIDLDgG2Jf",
+                "_attrs": []
+              },
+              {
+                "x": 4468,
+                "y": 2242,
+                "z": 0,
+                "_uuid": "1VVPqmdlLofuzA9i5P-I3",
+                "_attrs": []
+              },
+              {
+                "x": 3618.347226403251,
+                "y": 2097.5688714498497,
+                "z": 0,
+                "_uuid": "9jDDgW-P5AX-twpLKtNEw",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 3586,
+              "y": 1881,
+              "width": 906,
+              "height": 361
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69805",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "THRU"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1993,
+                "y": 1914
+              },
+              {
+                "x": 2245,
+                "y": 1918
+              },
+              {
+                "x": 2243,
+                "y": 2004
+              },
+              {
+                "x": 1992,
+                "y": 1999
+              }
+            ],
+            "bbox": {
+              "x": 1992,
+              "y": 1914,
+              "width": 253,
+              "height": 90
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69806",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "ATM"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 514,
+                "y": 1989
+              },
+              {
+                "x": 875,
+                "y": 2000
+              },
+              {
+                "x": 871,
+                "y": 2149
+              },
+              {
+                "x": 509,
+                "y": 2139
+              }
+            ],
+            "bbox": {
+              "x": 509,
+              "y": 1989,
+              "width": 366,
+              "height": 160
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69807",
+          "group_id": "",
+          "label": "银行卡",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "银联"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 3942,
+                "y": 2126
+              },
+              {
+                "x": 4415,
+                "y": 2142
+              },
+              {
+                "x": 4408,
+                "y": 2355
+              },
+              {
+                "x": 3935,
+                "y": 2339
+              }
+            ],
+            "bbox": {
+              "x": 3935,
+              "y": 2126,
+              "width": 480,
+              "height": 229
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "69810",
+          "group_id": "",
+          "label": "位置框",
+          "attrs": [],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 597.9088955883913,
+                "y": 108.20386641516252,
+                "_uuid": "0NvEG1lOqUyr_KLQEXQxm",
+                "_attrs": [],
+                "$coordKey": "0m-sX81Da8LcNcTXJpjMm"
+              },
+              {
+                "x": 4369.9291243257885,
+                "y": 194.45180493914356,
+                "_uuid": "mzc8OXnvJbDLhppTVGl8Y",
+                "_attrs": [],
+                "$coordKey": "QqiiT5B6tpHNQRzjps5oQ"
+              },
+              {
+                "x": 4829,
+                "y": 2669.708553581068,
+                "_uuid": "FWJRMGW4CqvbpJ8lo8Mwn",
+                "_attrs": [],
+                "$coordKey": "9uHbGa4z_M63G8WSg9_EY"
+              },
+              {
+                "x": 1.3180907577610188,
+                "y": 2530.7467712011703,
+                "_uuid": "ky1XR_n0d4JuZkilMltEX",
+                "_attrs": [],
+                "$coordKey": "kU8TZxn2XMOAkq5YV14hs"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "OXLciUNs1TjZkmI450J9j",
+            "_layerIndex": 0,
+            "bbox": {
+              "x": 1.318091,
+              "y": 108.203866,
+              "width": 4827.681909,
+              "height": 2561.504688
+            }
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69812",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "R"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2075.398748896303,
+                "y": 765.5887978064477,
+                "_uuid": "zk_x0afAn2ghyFMGn3Xh_",
+                "_attrs": [],
+                "$coordKey": "Mt6jDj1pid93BN4sqH9IV"
+              },
+              {
+                "x": 2172.17902297109,
+                "y": 760.980213326696,
+                "_uuid": "Jrd0oGSHDnRGZh5LrW61A",
+                "_attrs": [],
+                "$coordKey": "dgYU2MGDxm6__ZEcX5NV7"
+              },
+              {
+                "x": 2162.961854011586,
+                "y": 834.717565002724,
+                "_uuid": "Awq3okYmawWzvuQfsLW-Z",
+                "_attrs": [],
+                "$coordKey": "z-hq060kIHUfkRkUry-FT"
+              },
+              {
+                "x": 2084.6159178558064,
+                "y": 843.9347339622275,
+                "_uuid": "9EwO5zu1vjVM7UzD8VclZ",
+                "_attrs": [],
+                "$coordKey": "xQ_oFdDt4xqVlosf1RdsC"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "0AnYVWInx6ihcLmzX86Cn",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 2075.398749,
+              "y": 760.980213,
+              "width": 96.78027400000019,
+              "height": 82.954521
+            }
+          },
+          "shape": "polygon",
+          "user_id": 34765,
+          "user_name": "2D王建飞"
+        },
+        {
+          "track_id": "69814",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "LONG CARD DEBIT CARD"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2861.8436805304564,
+                "y": 872.3962811367363,
+                "_uuid": "mSesCStMGSmbneEkfOe-H",
+                "_attrs": [],
+                "$coordKey": "vHi0UpjpuP-k3fIt8nz5I"
+              },
+              {
+                "x": 4374.887495401572,
+                "y": 913.4001785587178,
+                "_uuid": "mqnDyPkBaiAVWWy1mSqsS",
+                "_attrs": [],
+                "$coordKey": "rFuQAwhK-wiRh082JDmwj"
+              },
+              {
+                "x": 4387.1886646281655,
+                "y": 1032.3114810824638,
+                "_uuid": "6DuH-4Iwn47q-x5WXIi_J",
+                "_attrs": [],
+                "$coordKey": "jlKhgjxg286_oQgNYC0NF"
+              },
+              {
+                "x": 2861.8436805304564,
+                "y": 995.4079734026806,
+                "_uuid": "IWRQjKHiypVZ-zKS41JnB",
+                "_attrs": [],
+                "$coordKey": "A0MD9Y_TfNpAcMHRAZCa-"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "rLLoUDCZpCVbEksflxkw2",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 2861.843681,
+              "y": 872.396281,
+              "width": 1525.3449839999998,
+              "height": 159.9151999999999
+            }
+          },
+          "shape": "polygon",
+          "user_id": 32623,
+          "user_name": "2D马博超"
+        }
+      ]
+    }
+  ],
+  "annotation 1": "2D王建飞",
+  "review 1": "2D马博超",
+  "review 2": "王嘉怡"
+}

@@ -1,0 +1,3436 @@
+{
+  "project_id": 1121,
+  "project_name": "LTxxOCR+分割",
+  "create_date": "2025-12-12 10:50:33",
+  "version": "1",
+  "attrs": [],
+  "entries": [
+    {
+      "entry_index": 1,
+      "entry_items": [
+        {
+          "content": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_快递面单_2531张_验收通过/票据_快递面单_00060.jpg",
+          "extra": "3024,4032",
+          "name": "票据_快递面单_00060.jpg",
+          "type": "image",
+          "entry_id": 179557
+        }
+      ],
+      "main_entry": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_快递面单_2531张_验收通过/票据_快递面单_00060.jpg",
+      "entry_anns": [],
+      "instance_anns": [
+        {
+          "track_id": "5665",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "JDL"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 483,
+                "y": 748
+              },
+              {
+                "x": 767,
+                "y": 756
+              },
+              {
+                "x": 763,
+                "y": 906
+              },
+              {
+                "x": 478,
+                "y": 898
+              }
+            ],
+            "bbox": {
+              "x": 478,
+              "y": 748,
+              "width": 289,
+              "height": 158
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5666",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "Express"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 764,
+                "y": 769,
+                "z": 0
+              },
+              {
+                "x": 902,
+                "y": 781,
+                "z": 0
+              },
+              {
+                "x": 899,
+                "y": 820,
+                "z": 0
+              },
+              {
+                "x": 761,
+                "y": 808,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 761,
+              "y": 769,
+              "width": 141,
+              "height": 51
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5667",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "京东快递"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 760,
+                "y": 809
+              },
+              {
+                "x": 1092,
+                "y": 825
+              },
+              {
+                "x": 1089,
+                "y": 906
+              },
+              {
+                "x": 756,
+                "y": 891
+              }
+            ],
+            "bbox": {
+              "x": 756,
+              "y": 809,
+              "width": 336,
+              "height": 97
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5668",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "电商退货"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1711,
+                "y": 861
+              },
+              {
+                "x": 2355,
+                "y": 925
+              },
+              {
+                "x": 2332,
+                "y": 1146
+              },
+              {
+                "x": 1689,
+                "y": 1081
+              }
+            ],
+            "bbox": {
+              "x": 1689,
+              "y": 861,
+              "width": 666,
+              "height": 285
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5669",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "2025-10-29 16:58:10"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 453,
+                "y": 1021,
+                "z": 0
+              },
+              {
+                "x": 983,
+                "y": 1033,
+                "z": 0
+              },
+              {
+                "x": 981,
+                "y": 1080,
+                "z": 0
+              },
+              {
+                "x": 452,
+                "y": 1068,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 452,
+              "y": 1021,
+              "width": 531,
+              "height": 59
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5671",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "JDX044387566473-1-1-"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 666,
+                "y": 1391
+              },
+              {
+                "x": 1771,
+                "y": 1398
+              },
+              {
+                "x": 1770,
+                "y": 1483
+              },
+              {
+                "x": 665,
+                "y": 1476
+              }
+            ],
+            "bbox": {
+              "x": 665,
+              "y": 1391,
+              "width": 1106,
+              "height": 92
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5672",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "1/1"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 2104,
+                "y": 1402
+              },
+              {
+                "x": 2237,
+                "y": 1402
+              },
+              {
+                "x": 2237,
+                "y": 1522
+              },
+              {
+                "x": 2104,
+                "y": 1522
+              }
+            ],
+            "bbox": {
+              "x": 2104,
+              "y": 1402,
+              "width": 133,
+              "height": 120
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5673",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "银川"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 862.0542052286636,
+                "y": 1498.654284778814,
+                "z": 0,
+                "_uuid": "3iynbVs_yL-BkQ-nCLw5M",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1205.5464137539561,
+                "y": 1497.0858272056391,
+                "z": 0,
+                "_uuid": "7sdeXjZ7Pk1_wJwU0WV_5",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1203.9779561807811,
+                "y": 1679.026905693922,
+                "z": 0,
+                "_uuid": "mphEplvPwrxjkMP2RLJ8Q",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 857.348832509139,
+                "y": 1672.7530754012225,
+                "z": 0,
+                "_uuid": "Z50VPTU_84HaXllrpqkWU",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 849,
+              "y": 1478,
+              "width": 371,
+              "height": 224
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5674",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "西安陆港"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 446,
+                "y": 1567
+              },
+              {
+                "x": 800,
+                "y": 1573
+              },
+              {
+                "x": 798,
+                "y": 1677
+              },
+              {
+                "x": 444,
+                "y": 1671
+              }
+            ],
+            "bbox": {
+              "x": 444,
+              "y": 1567,
+              "width": 356,
+              "height": 110
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5675",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "014AL"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1790.636287424562,
+                "y": 1594.5509921819614,
+                "z": 0,
+                "_uuid": "N3QLjpfjNaAoy9x9AACCQ",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2304.516089913007,
+                "y": 1625.0600025810058,
+                "z": 0,
+                "_uuid": "OopTzN0D160lpDDkfkoHt",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2308.723473268118,
+                "y": 1801.390095357135,
+                "z": 0,
+                "_uuid": "qSvGAWyr4y9Bh2hhZfKII",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1790.5101566998196,
+                "y": 1779.3298028916463,
+                "z": 0,
+                "_uuid": "6TvyAF0QH3r2zXolpeJ3m",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 1765,
+              "y": 1583,
+              "width": 560,
+              "height": 230
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5676",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "银川鼓楼站"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1291,
+                "y": 1630,
+                "z": 0,
+                "_uuid": "l1wmDP8WYl_1-KmTQ-tAL",
+                "_attrs": []
+              },
+              {
+                "x": 1709.3852316270513,
+                "y": 1627.6749658637088,
+                "z": 0,
+                "_uuid": "RljJYppuZVqoBXnxkxFd7",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1706.732307177104,
+                "y": 1728.4860949617037,
+                "z": 0,
+                "_uuid": "vlV_-zU8hyYhbbiuFFw1g",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1291,
+                "y": 1736,
+                "z": 0,
+                "_uuid": "D8z9r4Z9UWRYf8Udfj9fZ",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 1291,
+              "y": 1628,
+              "width": 471,
+              "height": 108
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5677",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "集散"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 868.3280355213631,
+                "y": 1683.7322784134465,
+                "z": 0,
+                "_uuid": "-T4VB6LwJpSnQs9cqDchQ",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1213.3887016198303,
+                "y": 1682.1638208402717,
+                "z": 0,
+                "_uuid": "wKQ0v9viBMBI4Foct63hB",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1216.52561676618,
+                "y": 1859.3995266090299,
+                "z": 0,
+                "_uuid": "hpIi24HR_btsVKsuhccuR",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 858.9172900823139,
+                "y": 1857.8310690358549,
+                "z": 0,
+                "_uuid": "QaWkrLtSfzBYoOWUdW7ek",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 842,
+              "y": 1640,
+              "width": 398,
+              "height": 241
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5678",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "二期集货"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 447.50784946410096,
+                "y": 1678.1572786606873,
+                "z": 0,
+                "_uuid": "G03gHX1NlvoWRiheZmqHx",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 789.4681111721582,
+                "y": 1681.406307275491,
+                "z": 0,
+                "_uuid": "55A0sxiQ3a-4CdA6o1bTS",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 788.3330330735942,
+                "y": 1770.9132983157117,
+                "z": 0,
+                "_uuid": "m3RT2ux8Pk4btJXfNapLs",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 445.4251319013633,
+                "y": 1765.9875032550763,
+                "z": 0,
+                "_uuid": "HGTMeJ83wNruC13oyCKBh",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 443,
+              "y": 1666,
+              "width": 360,
+              "height": 115
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5680",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "12-银川"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 657.6121408719358,
+                "y": 1878.1953095067704,
+                "z": 0,
+                "_uuid": "yMSMLwaWuQV9M0gAvdWTw",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1240.8357409083899,
+                "y": 1873.5338187028096,
+                "z": 0,
+                "_uuid": "m-GIUq5GiQhfQFRn-FVz4",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1239.164425508061,
+                "y": 2056.172056939116,
+                "z": 0,
+                "_uuid": "u42WMggWOhVV3WKhLk3oB",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 655.2614118306748,
+                "y": 2044.9562365978238,
+                "z": 0,
+                "_uuid": "3B5yZPm3-oWNQ21gHbCic",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 642,
+              "y": 1860,
+              "width": 616,
+              "height": 216
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5681",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "4H-20B"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1649,
+                "y": 1870
+              },
+              {
+                "x": 2149,
+                "y": 1877
+              },
+              {
+                "x": 2147,
+                "y": 2058
+              },
+              {
+                "x": 1647,
+                "y": 2052
+              }
+            ],
+            "bbox": {
+              "x": 1647,
+              "y": 1870,
+              "width": 502,
+              "height": 188
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5686",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "收"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 447,
+                "y": 2191
+              },
+              {
+                "x": 598,
+                "y": 2198
+              },
+              {
+                "x": 591,
+                "y": 2347
+              },
+              {
+                "x": 440,
+                "y": 2340
+              }
+            ],
+            "bbox": {
+              "x": 440,
+              "y": 2191,
+              "width": 158,
+              "height": 156
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5687",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "宁夏银川市兴庆区银古路街道北"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 659,
+                "y": 2216
+              },
+              {
+                "x": 1837,
+                "y": 2212
+              },
+              {
+                "x": 1837,
+                "y": 2322
+              },
+              {
+                "x": 660,
+                "y": 2326
+              }
+            ],
+            "bbox": {
+              "x": 659,
+              "y": 2212,
+              "width": 1178,
+              "height": 114
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5688",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "京东路吉泰公园世家快递柜"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 613,
+                "y": 2319
+              },
+              {
+                "x": 1627,
+                "y": 2314
+              },
+              {
+                "x": 1628,
+                "y": 2420
+              },
+              {
+                "x": 614,
+                "y": 2424
+              }
+            ],
+            "bbox": {
+              "x": 613,
+              "y": 2314,
+              "width": 1015,
+              "height": 110
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5691",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "已验视"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 408,
+                "y": 2457
+              },
+              {
+                "x": 592,
+                "y": 2454
+              },
+              {
+                "x": 593,
+                "y": 2533
+              },
+              {
+                "x": 409,
+                "y": 2535
+              }
+            ],
+            "bbox": {
+              "x": 408,
+              "y": 2454,
+              "width": 185,
+              "height": 81
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5692",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "1.0kg高"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 916.8216600788663,
+                "y": 2558.083036270346,
+                "z": 0,
+                "_uuid": "Q8gFUjCke3xaghKcHckk_",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1141.7217419772198,
+                "y": 2557.6835741914433,
+                "z": 0,
+                "_uuid": "7FFFcrMb7cbmp-lnAcRir",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1138.829010982873,
+                "y": 2657.000671664018,
+                "z": 0,
+                "_uuid": "5Naxab8HM_s8-4ztnvF6U",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 912.5722357114088,
+                "y": 2659.26383351704,
+                "z": 0,
+                "_uuid": "3qMF9t35agI92uF-fedIa",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 898,
+              "y": 2539,
+              "width": 376,
+              "height": 130
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5693",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "寄：田**5788 陕西商洛市商南县城关街道东环路与环城北路交叉口东北方向39"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 404,
+                "y": 2665,
+                "z": 0
+              },
+              {
+                "x": 2312,
+                "y": 2650,
+                "z": 0
+              },
+              {
+                "x": 2312,
+                "y": 2731,
+                "z": 0
+              },
+              {
+                "x": 405,
+                "y": 2747,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 404,
+              "y": 2650,
+              "width": 1908,
+              "height": 97
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5694",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "米左右天和家园"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 403,
+                "y": 2744
+              },
+              {
+                "x": 811,
+                "y": 2742
+              },
+              {
+                "x": 811,
+                "y": 2814
+              },
+              {
+                "x": 403,
+                "y": 2816
+              }
+            ],
+            "bbox": {
+              "x": 403,
+              "y": 2742,
+              "width": 408,
+              "height": 74
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5695",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "托寄物：其它日用品"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 398.85951046027577,
+                "y": 2814.7425934605358,
+                "z": 0,
+                "_uuid": "CsvsJwxT2Iip9h0qWvmVe",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1356.965810300662,
+                "y": 2807.368121354084,
+                "z": 0,
+                "_uuid": "ifl_0f7QPun6NyiMXR_if",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1364.5854878642647,
+                "y": 2932.669485733328,
+                "z": 0,
+                "_uuid": "-Ho-JZP1DxoglV2J_EJp3",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 395.95598999312296,
+                "y": 2941.045733781684,
+                "z": 0,
+                "_uuid": "E_PfCHAdyZ4yIpdhnzKlq",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 389,
+              "y": 2797,
+              "width": 983,
+              "height": 154
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5696",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "备注："
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 401.8529266431422,
+                "y": 2951.388051001928,
+                "z": 0,
+                "_uuid": "NrLOP-X0VQogG93hEgvEm",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 674.4872786235418,
+                "y": 2941.682620996153,
+                "z": 0,
+                "_uuid": "pG7ddnhfM57JyKfBZt733",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 678.016525898369,
+                "y": 3062.5593401589845,
+                "z": 0,
+                "_uuid": "UPQFqJox6pMje_xcLqoZT",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 400.9706148244354,
+                "y": 3072.264770164759,
+                "z": 0,
+                "_uuid": "drM5yZs8mOj_I31oHDtZQ",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 386,
+              "y": 2920,
+              "width": 312,
+              "height": 171
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5697",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "包"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1971.4686745225083,
+                "y": 3334.735965796975,
+                "z": 0,
+                "_uuid": "BQdEQ_pJ_c5rh9YBlNz_l",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2201.7527543488777,
+                "y": 3325.48602422408,
+                "z": 0,
+                "_uuid": "C_m7i8ecSANInlJhxUyUW",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 2219.503186707757,
+                "y": 3521.214271695985,
+                "z": 0,
+                "_uuid": "Qbu4y2F0mD3W7WRmi4WMG",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1980.6199777661427,
+                "y": 3526.3405208149043,
+                "z": 0,
+                "_uuid": "eEd6L_IqQAA4Q0hO55PDI",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 1954,
+              "y": 3300,
+              "width": 271,
+              "height": 250
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5701",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "王^_^ 1^_^5591"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 622.1434755658643,
+                "y": 2105.257540631618,
+                "_uuid": "SKo8XPeZnsjR-qTM832DT",
+                "_attrs": [],
+                "$coordKey": "HXNvF69Y47c2_JZBBMN6Q",
+                "z": 0
+              },
+              {
+                "x": 1497.5190694998976,
+                "y": 2110.483663580478,
+                "_uuid": "WauJ3xPtgV2mzuTdyPOVW",
+                "_attrs": [],
+                "$coordKey": "7KGOLnxa0szFPVs7ZYTEc",
+                "z": 0
+              },
+              {
+                "x": 1505.3582539231875,
+                "y": 2209.7799996088165,
+                "_uuid": "pHdRt_Fb9KOrGCCdwk5Gh",
+                "_attrs": [],
+                "$coordKey": "vYNTkJXsatScA9BP7e4Nh",
+                "z": 0
+              },
+              {
+                "x": 619.5304140914343,
+                "y": 2222.845306980966,
+                "_uuid": "iAPU_x9Mo8vWy1yyzaalJ",
+                "_attrs": [],
+                "$coordKey": "ttcvywXJpTrJrwHQELJe4",
+                "z": 0
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "JPlZjBUC9nwUvNelVTcv3",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 619.530414,
+              "y": 2105.257541,
+              "width": 885.82784,
+              "height": 117.5877660000001
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5710",
+          "group_id": "",
+          "label": "位置框",
+          "attrs": [],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 482.10591834242996,
+                "y": 690.047378795361,
+                "_uuid": "UgxwNnjkJO-rksi9tsLRW",
+                "_attrs": [],
+                "$coordKey": "KOJQaiga5P2V-cTZqHyRV"
+              },
+              {
+                "x": 754.9851545909386,
+                "y": 693.0134574502362,
+                "_uuid": "ulEeUH3PnuR6pjbkcuWs4",
+                "_attrs": [],
+                "$coordKey": "KnGpswKwrK405zrYJ8SqA"
+              },
+              {
+                "x": 766.8494692104389,
+                "y": 701.9116934148615,
+                "_uuid": "BF0do77yBub960InO8si0",
+                "_attrs": [],
+                "$coordKey": "Z-1efYVLWDher3TSkHt4q"
+              },
+              {
+                "x": 1067.652997512267,
+                "y": 717.8063710517683,
+                "_uuid": "uIuXeyiTgy1mLX5M9mav5",
+                "_attrs": [],
+                "$coordKey": "S7Eot0irxQn4Q106qfcxP",
+                "$stickyKey": ""
+              },
+              {
+                "x": 1233.3402894292312,
+                "y": 700.4147164266207,
+                "_uuid": "9XLSfD4ItYaqQ3sp7p0AO",
+                "_attrs": [],
+                "$coordKey": "EqayJmgO18F8DZRXZoyjM"
+              },
+              {
+                "x": 1476.928320032707,
+                "y": 705.797877323935,
+                "_uuid": "qof7WeRlgx5ntYm3OGS5E",
+                "_attrs": [],
+                "$coordKey": "FqCeRYgMSioBqzSoubdiT"
+              },
+              {
+                "x": 1663.993161214382,
+                "y": 699.0689262022921,
+                "_uuid": "1IB-0ZVf6sWqcn9eSmI8z",
+                "_attrs": [],
+                "$coordKey": "Q2tQwImkdxGCuIdD3bIOs"
+              },
+              {
+                "x": 1950.646478996373,
+                "y": 724.6389404645355,
+                "_uuid": "wUBh2srjhDGOjmpz8l8H8",
+                "_attrs": [],
+                "$coordKey": "a2SdTJWzGJeYvnRiZSK7i"
+              },
+              {
+                "x": 2258.8324403676215,
+                "y": 767.7042276430506,
+                "_uuid": "FkWdW8h5OvEhdUrTG4Rrj",
+                "_attrs": [],
+                "$coordKey": "f70lOH3zYk7xxABV1cDnv"
+              },
+              {
+                "x": 2336.88827337868,
+                "y": 786.5452907836509,
+                "_uuid": "UlqudSMWGPhr0L59Hli-X",
+                "_attrs": [],
+                "$coordKey": "pQka71Ac5KBGVnnklPsYr"
+              },
+              {
+                "x": 2355.7293365192804,
+                "y": 808.0779343729084,
+                "_uuid": "hVKC3_JjinPjQSgVr2kS3",
+                "_attrs": [],
+                "$coordKey": "MqlDv-YtUtqHEFZWhLPWi"
+              },
+              {
+                "x": 2369.1872387625663,
+                "y": 882.0963967109813,
+                "_uuid": "U9nHvYdIW2w-2eTMbkVZi",
+                "_attrs": [],
+                "$coordKey": "lxJSOxgSLknKTr6OTmprl"
+              },
+              {
+                "x": 2374.570399659881,
+                "y": 974.9559221896544,
+                "_uuid": "SO-5L8owenJR4hJ2--qMZ",
+                "_attrs": [],
+                "$coordKey": "cnVW8v9lC6A2_Jt30HE98"
+              },
+              {
+                "x": 2414.69033530049,
+                "y": 2559.426327195242,
+                "_uuid": "DaPgZs4HrCs-muFc4J25E",
+                "_attrs": [],
+                "$coordKey": "0lndpAkK0ihO5d4q7GWVD"
+              },
+              {
+                "x": 2431.5267288539876,
+                "y": 3474.2037102685968,
+                "_uuid": "PHxqWQs1t9R6PxqWVIhPl",
+                "_attrs": [],
+                "$coordKey": "L7IhK-knkDfQ_H39EgzV7"
+              },
+              {
+                "x": 2420.3024664849895,
+                "y": 3517.2300493497564,
+                "_uuid": "5Zv2FHWejYZOsEo803HeJ",
+                "_attrs": [],
+                "$coordKey": "nXbW3zON5L6lZDWlaStZQ"
+              },
+              {
+                "x": 2390.3711001676606,
+                "y": 3550.902836456751,
+                "_uuid": "aRqiYTt2n2NmmmQ546nm1",
+                "_attrs": [],
+                "$coordKey": "51tkQFyWewSwA0jTS3A-L"
+              },
+              {
+                "x": 1694.4668332897709,
+                "y": 3593.929175537911,
+                "_uuid": "qcy1b0L5gu8pmOgNbWObY",
+                "_attrs": [],
+                "$coordKey": "HpgxTyFTZbQmbyt7QCzLq"
+              },
+              {
+                "x": 805.8793957440785,
+                "y": 3610.7655690914085,
+                "_uuid": "yTXVAiVo3UqDboQvilSLY",
+                "_attrs": [],
+                "$coordKey": "C2YAwQnszBWjwONKC4APv"
+              },
+              {
+                "x": 413.0302128291406,
+                "y": 3612.6362794862416,
+                "_uuid": "_wTU41MEUgS6XmZUrG2IB",
+                "_attrs": [],
+                "$coordKey": "5khjQp5KOgCzyaRFF28Ou"
+              },
+              {
+                "x": 377.48671532731294,
+                "y": 3590.187754748245,
+                "_uuid": "krDPY59crGzW2jtNTHYQh",
+                "_attrs": [],
+                "$coordKey": "RkJhf6UBd58NH-kMtqn2d"
+              },
+              {
+                "x": 347.55534900998435,
+                "y": 3554.644257246417,
+                "_uuid": "tog8oI-NoAbpIJqH2KATJ",
+                "_attrs": [],
+                "$coordKey": "yrIi5pSEGSQFmGopgeGnT"
+              },
+              {
+                "x": 358.77961137898257,
+                "y": 2984.077586822341,
+                "_uuid": "yJbYNf-76zPXz_GUnNb1w",
+                "_attrs": [],
+                "$coordKey": "66Jl4pmzKEeJaZPSWSnJz"
+              },
+              {
+                "x": 398.06452967047636,
+                "y": 1438.8708006902525,
+                "_uuid": "tSmsuOgLpJQErf3KfVKjo",
+                "_attrs": [],
+                "$coordKey": "0dv3KwKIR6wVJSCJZ090h"
+              },
+              {
+                "x": 413.0302128291406,
+                "y": 800.9585560521869,
+                "_uuid": "seOES6YfaVF_PHNv-nMvd",
+                "_attrs": [],
+                "$coordKey": "VcAIQgeaTyGe_Bdr1mDHr"
+              },
+              {
+                "x": 414.9009232239737,
+                "y": 733.6129818381975,
+                "_uuid": "zWgYLmCQyQ4KzO_msw_Pv",
+                "_attrs": [],
+                "$coordKey": "DK81t1sMaX6ld5VrRMogh"
+              },
+              {
+                "x": 439.22015835680315,
+                "y": 703.681615520869,
+                "_uuid": "VFPQ3HifDbyOAgXXXgVOm",
+                "_attrs": [],
+                "$coordKey": "Sh7Hta3E62Wh87jzAupr3"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "OFjZlK9RKZc6IJ-bVjSoU",
+            "_layerIndex": 0,
+            "bbox": {
+              "x": 347.555349,
+              "y": 690.047379,
+              "width": 2083.97138,
+              "height": 2922.5888999999997
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5713",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "高"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 1178.4740763237035,
+                "y": 2554.20670417783,
+                "_uuid": "ebuoaIckkKBfdW_JJpsUi",
+                "_attrs": [],
+                "$coordKey": "i5s9nlk0tJ3C-2n-sdxgI"
+              },
+              {
+                "x": 1259.8770502665418,
+                "y": 2556.1448702240878,
+                "_uuid": "GrLVF_wmEtL7JjKGFEilt",
+                "_attrs": [],
+                "$coordKey": "mjODZEMbBhcnYf1-pO75i"
+              },
+              {
+                "x": 1258.9079672434127,
+                "y": 2654.02225556012,
+                "_uuid": "MntY8SNkqKl2ZXltmv11L",
+                "_attrs": [],
+                "$coordKey": "kbFgBXsDlVD18EWQkj6_z"
+              },
+              {
+                "x": 1176.828173411405,
+                "y": 2651.495168311598,
+                "_uuid": "wGTeRse_-F-CFQKSGDbCn",
+                "_attrs": [],
+                "$coordKey": "DOpAuCCntxfSUs4PoRxkg",
+                "$stickyKey": ""
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "1xEH1kDZmEa2W_LVBkE8d",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 1178.474076,
+              "y": 2554.206704,
+              "width": 81.40297400000009,
+              "height": 99.81555200000003
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        }
+      ]
+    },
+    {
+      "entry_index": 2,
+      "entry_items": [
+        {
+          "content": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_快递面单_2531张_验收通过/票据_快递面单_00061.jpg",
+          "extra": "1080,1920",
+          "name": "票据_快递面单_00061.jpg",
+          "type": "image",
+          "entry_id": 179558
+        }
+      ],
+      "main_entry": "databaker/data/9614/第二批-1_1763019679640/第二批-1/票据_快递面单_2531张_验收通过/票据_快递面单_00061.jpg",
+      "entry_anns": [],
+      "instance_anns": [
+        {
+          "track_id": "5462",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "EXPRESS"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 132,
+                "y": 500
+              },
+              {
+                "x": 293,
+                "y": 498
+              },
+              {
+                "x": 294,
+                "y": 540
+              },
+              {
+                "x": 132,
+                "y": 542
+              }
+            ],
+            "bbox": {
+              "x": 132,
+              "y": 498,
+              "width": 162,
+              "height": 44
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5463",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 53.96210928009383,
+                "y": 518.7851170813087,
+                "z": 0,
+                "_uuid": "vr7LEFiJO9ZZsFSMLOnOW",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 116.84796448102615,
+                "y": 517.2806707846357,
+                "z": 0,
+                "_uuid": "8_fmkWWdl5wG62gR6udc-",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 115.64440744368774,
+                "y": 566.6265093155108,
+                "z": 0,
+                "_uuid": "4U0caQgJPi65pQpborPhk",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 53.36033076142461,
+                "y": 568.4318448715185,
+                "z": 0,
+                "_uuid": "GRW1caYKvuoUxd3RZAkFU",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 52,
+              "y": 513,
+              "width": 66,
+              "height": 58
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5464",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "顺 丰 速 运"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 132.37301106135854,
+                "y": 540.574059973933,
+                "z": 0,
+                "_uuid": "RYRSZLr3viPORGZ15U2b6",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 290.9729395626931,
+                "y": 538.584006567461,
+                "z": 0,
+                "_uuid": "wkoq2sOscVE64IxZp56KE",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 293,
+                "y": 578,
+                "z": 0,
+                "_uuid": "6Dti4cSK7n4JgarxB8Oxh",
+                "_attrs": []
+              },
+              {
+                "x": 131,
+                "y": 580,
+                "z": 0,
+                "_uuid": "nqyivAp9UWoT5MUVI3Urh",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 131,
+              "y": 535,
+              "width": 162,
+              "height": 45
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5465",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "标快"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 713.9408432392794,
+                "y": 549.6334540366514,
+                "z": 0,
+                "_uuid": "__B-QZ7NdIeVnY4yStIqu",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 952.7455113146538,
+                "y": 548.1170096403101,
+                "z": 0,
+                "_uuid": "iCje3rwukAyOyRA_InryC",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 956.8840113267938,
+                "y": 671.8627452180389,
+                "z": 0,
+                "_uuid": "Q0dxO0hNY4PFQuUJauP36",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 713.7379143114192,
+                "y": 673.5839428946829,
+                "z": 0,
+                "_uuid": "rAOdcATG1VZJRxgUggKda",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 709,
+              "y": 533,
+              "width": 260,
+              "height": 153
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5466",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "客服热线 95338"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 50,
+                "y": 632,
+                "z": 0,
+                "_uuid": "M8CGVS1tgydLNnoiKv1nM",
+                "_attrs": []
+              },
+              {
+                "x": 244.5879598768592,
+                "y": 631.3178797807733,
+                "z": 0,
+                "_uuid": "toq5CZP1mgu0g8K4V4RA-",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 247.85346668908213,
+                "y": 665.0614501737437,
+                "z": 0,
+                "_uuid": "3LN5HAEm4pOT_hE3ODWTQ",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 50,
+                "y": 667,
+                "z": 0,
+                "_uuid": "Vfb13F5dPUbQAE_itjhKm",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 50,
+              "y": 632,
+              "width": 108,
+              "height": 35
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5471",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF1521807213880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 914,
+                "y": 702,
+                "z": 0
+              },
+              {
+                "x": 949,
+                "y": 702,
+                "z": 0
+              },
+              {
+                "x": 946,
+                "y": 908,
+                "z": 0
+              },
+              {
+                "x": 911,
+                "y": 908,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 911,
+              "y": 702,
+              "width": 38,
+              "height": 206
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5472",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "运单号SF 152 180 721 3880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 117.31904145387524,
+                "y": 880.8132843353401,
+                "z": 0,
+                "_uuid": "O1hIuaDTqSaGcARc_8kgY",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 691.657279726017,
+                "y": 881.4954594712982,
+                "z": 0,
+                "_uuid": "HQ53Q7wpilcP2EFPbJ7f9",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 695,
+                "y": 934,
+                "z": 0,
+                "_uuid": "0zx5jQzL7F9d6FME-w4-X",
+                "_attrs": []
+              },
+              {
+                "x": 120,
+                "y": 936,
+                "z": 0,
+                "_uuid": "gI2PW4Q4qBKl2V_JQVM8f",
+                "_attrs": []
+              }
+            ],
+            "bbox": {
+              "x": 120,
+              "y": 876,
+              "width": 575,
+              "height": 60
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5473",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "951AE-030"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 49,
+                "y": 964
+              },
+              {
+                "x": 650,
+                "y": 964
+              },
+              {
+                "x": 650,
+                "y": 1089
+              },
+              {
+                "x": 49,
+                "y": 1089
+              }
+            ],
+            "bbox": {
+              "x": 49,
+              "y": 964,
+              "width": 601,
+              "height": 125
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5474",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "陆运"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 805.3621998896099,
+                "y": 1078.5191006731332,
+                "z": 0,
+                "_uuid": "9kGDLIDyN9Ez2mPPcabAA",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 910.0159360263277,
+                "y": 1078.537417293698,
+                "z": 0,
+                "_uuid": "TRk0_O5CMFOueqhUKnX3R",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 909.553181290708,
+                "y": 1135.4562497749166,
+                "z": 0,
+                "_uuid": "wanK1X3YSeugKPhCL2SDg",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 805.2292364307652,
+                "y": 1132.5393088307549,
+                "z": 0,
+                "_uuid": "0vx31LdKy_EsW6NtPQoYU",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 798,
+              "y": 1070,
+              "width": 117,
+              "height": 69
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5476",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "包裹"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 804.5201354403647,
+                "y": 1144.490139956804,
+                "z": 0,
+                "_uuid": "2aqiD6PvLnxVZhnPmmYzA",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 913.4628627172535,
+                "y": 1146.0614292925284,
+                "z": 0,
+                "_uuid": "nEluTHxlHyi5Eg3j8OsTz",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 913.4628627172535,
+                "y": 1202.6278453786051,
+                "z": 0,
+                "_uuid": "pLQ491_x9Kmz7BwmbAZXN",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 804.5201354403647,
+                "y": 1198.9615035952484,
+                "z": 0,
+                "_uuid": "fQQ6gsfcTqyTWTRVamUxn",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 799,
+              "y": 1138,
+              "width": 118,
+              "height": 70
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5478",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "王冬冬"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 148.60274470932256,
+                "y": 1198.2356767966794,
+                "z": 0,
+                "_uuid": "YjZJvaUMMcbh7OvORCfRp",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 307,
+                "y": 1197,
+                "z": 0,
+                "_uuid": "kOXuarKlX5qSASygb3TDH",
+                "_attrs": []
+              },
+              {
+                "x": 307,
+                "y": 1262,
+                "z": 0,
+                "_uuid": "ZiXiZ5Ba_9cEbHoSVZiF7",
+                "_attrs": []
+              },
+              {
+                "x": 147.74344605646343,
+                "y": 1260.9644784553964,
+                "z": 0,
+                "_uuid": "fTUMWdQ58MiwlfriFDDP3",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 138,
+              "y": 1197,
+              "width": 169,
+              "height": 65
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5479",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "1*0453"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 400,
+                "y": 1197
+              },
+              {
+                "x": 543,
+                "y": 1197
+              },
+              {
+                "x": 543,
+                "y": 1252
+              },
+              {
+                "x": 400,
+                "y": 1252
+              }
+            ],
+            "bbox": {
+              "x": 400,
+              "y": 1197,
+              "width": 143,
+              "height": 55
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5480",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "宁夏回族自治区银川市兴庆区"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 51,
+                "y": 1330
+              },
+              {
+                "x": 549,
+                "y": 1333
+              },
+              {
+                "x": 549,
+                "y": 1381
+              },
+              {
+                "x": 51,
+                "y": 1378
+              }
+            ],
+            "bbox": {
+              "x": 51,
+              "y": 1330,
+              "width": 498,
+              "height": 51
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5481",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": null,
+              "values": [
+                "高台五队丰巢柜"
+              ]
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 51,
+                "y": 1373
+              },
+              {
+                "x": 323,
+                "y": 1375
+              },
+              {
+                "x": 322,
+                "y": 1424
+              },
+              {
+                "x": 51,
+                "y": 1422
+              }
+            ],
+            "bbox": {
+              "x": 51,
+              "y": 1373,
+              "width": 272,
+              "height": 51
+            }
+          },
+          "shape": "polygon",
+          "user_id": null,
+          "user_name": null
+        },
+        {
+          "track_id": "5482",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "寄付月结"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 292.53568207931744,
+                "y": 1463.532364892041,
+                "z": 0,
+                "_uuid": "oMXXjUsrmKzcPg-KYR3fo",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 449.18053741683315,
+                "y": 1465.2230223790507,
+                "z": 0,
+                "_uuid": "Iqx2oSmFgIkrlZApapZP1",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 451.5020220907939,
+                "y": 1513.3938293637361,
+                "z": 0,
+                "_uuid": "GWShGvpPIkBNUFswgAP-h",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 293.113155019285,
+                "y": 1513.7725106692167,
+                "z": 0,
+                "_uuid": "jQlJo03tEDqTp7GtOiM2V",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 289,
+              "y": 1459,
+              "width": 165,
+              "height": 60
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5483",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "总 1.000KG"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 64,
+                "y": 1496,
+                "z": 0
+              },
+              {
+                "x": 199,
+                "y": 1496,
+                "z": 0
+              },
+              {
+                "x": 199,
+                "y": 1534,
+                "z": 0
+              },
+              {
+                "x": 64,
+                "y": 1534,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 64,
+              "y": 1496,
+              "width": 135,
+              "height": 38
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5484",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "寄 廖*倩 1*6745 江西省新余市渝水区城北街道长青北路丽湖花园"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 65,
+                "y": 1529,
+                "z": 0
+              },
+              {
+                "x": 845,
+                "y": 1540,
+                "z": 0
+              },
+              {
+                "x": 844,
+                "y": 1580,
+                "z": 0
+              },
+              {
+                "x": 64,
+                "y": 1569,
+                "z": 0
+              }
+            ],
+            "bbox": {
+              "x": 64,
+              "y": 1529,
+              "width": 781,
+              "height": 51
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5486",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "Ba###"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 752.5193853159662,
+                "y": 1729.0810708735949,
+                "z": 0,
+                "_uuid": "H8U66NyjGUNhk5dTJHhSE",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 877.270467128538,
+                "y": 1733.3654514610973,
+                "z": 0,
+                "_uuid": "Sm32s535y4kt-LnbnDufd",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 876.2623775785374,
+                "y": 1761.5919588611137,
+                "z": 0,
+                "_uuid": "Lw3zzjd6gymv_W9GhVIPP",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              },
+              {
+                "x": 751.0072509909654,
+                "y": 1761.5919588611137,
+                "z": 0,
+                "_uuid": "P8SvXtxHdZLCJHT_1Cj9H",
+                "_attrs": [],
+                "$coordKey": "",
+                "$stickyKey": ""
+              }
+            ],
+            "bbox": {
+              "x": 744,
+              "y": 1725,
+              "width": 184,
+              "height": 51
+            },
+            "_isManual": true,
+            "_isValid": true
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5702",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "1685132 已验视 NEXT 1 2025-05-14 18：06：23"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 67.16208974607996,
+                "y": 683.5659887763402,
+                "_uuid": "aNZzmoPqhXH-mlaOIGH-X",
+                "_attrs": [],
+                "$coordKey": "S9qtf4og-CPMvRkyMEZHt"
+              },
+              {
+                "x": 628.8292614484241,
+                "y": 678.1234774226353,
+                "_uuid": "m7V3jPow5iBSed0ujZRDU",
+                "_attrs": [],
+                "$coordKey": "P0FajvH45Bg-BdzFeNnLT"
+              },
+              {
+                "x": 631.006265989906,
+                "y": 707.5130387326417,
+                "_uuid": "Ad8F_NgOtiv2u6yMhATmk",
+                "_attrs": [],
+                "$coordKey": "7hltGS8C6QO_1ErLV-k36"
+              },
+              {
+                "x": 69.3390942875619,
+                "y": 710.7785455448646,
+                "_uuid": "QDA787IEg35GmVizKZyMK",
+                "_attrs": [],
+                "$coordKey": "UefFxTJBlkKEcH9snVquD"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "d82g97MkQPpl7A8w5ODmc",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 67.16209,
+              "y": 678.123477,
+              "width": 563.844176,
+              "height": 32.655069000000026
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5705",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "收"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 66.9693726877048,
+                "y": 1192.2205862266655,
+                "_uuid": "yTEJnGGr5MTYidjpS3liP",
+                "_attrs": [],
+                "$coordKey": "QauVN6OK1kwpaK1DisyuE"
+              },
+              {
+                "x": 132.276070304999,
+                "y": 1191.3612875738065,
+                "_uuid": "A_P2QFwGvAAaq8UdYeniS",
+                "_attrs": [],
+                "$coordKey": "M-1_B_AsgPVEcG4S9IdQZ"
+              },
+              {
+                "x": 133.13536895785813,
+                "y": 1271.2760622897058,
+                "_uuid": "MkPuofP6j2LPE10IF8X7K",
+                "_attrs": [],
+                "$coordKey": "tAz9DbuCpiZp2RJg_sX4z"
+              },
+              {
+                "x": 65.25077538198653,
+                "y": 1272.994659595424,
+                "_uuid": "V-NfS5qrLTQhrFksZuFLu",
+                "_attrs": [],
+                "$coordKey": "gxD1woxEcB4N07GTbazqN"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "UGqB9PnOXhtiePRg667oi",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 65.250775,
+              "y": 1191.361288,
+              "width": 67.88459399999999,
+              "height": 81.63337200000001
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5707",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "S2"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 67.2306947522535,
+                "y": 1634.7418332396637,
+                "_uuid": "1RnFyRGqBk2nnXLBuHJZ_",
+                "_attrs": [],
+                "$coordKey": "6WEFtHlrwp4vNoGK1SAnz"
+              },
+              {
+                "x": 179.4515908423176,
+                "y": 1634.7418332396637,
+                "_uuid": "ajxdr4eWM-SliyFg8G2wc",
+                "_attrs": [],
+                "$coordKey": "SISjFfV00oKgKqmydSJJ6"
+              },
+              {
+                "x": 180.62055850992243,
+                "y": 1737.610987988889,
+                "_uuid": "4LnELUcop4Wexlk_entvw",
+                "_attrs": [],
+                "$coordKey": "99fh7EfZT1t820sQr_dpK"
+              },
+              {
+                "x": 64.89275941704382,
+                "y": 1737.610987988889,
+                "_uuid": "C0fu7EZI6V-qPXxiteooq",
+                "_attrs": [],
+                "$coordKey": "9oHtdSFhfaVrlKp9d5yay"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "GnU51DTJCXJ6GWjsQuCjZ",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 64.892759,
+              "y": 1634.741833,
+              "width": 115.72779999999999,
+              "height": 102.86915499999986
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5708",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "包"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 775.6251013207832,
+                "y": 1644.0935745805025,
+                "_uuid": "fFfLIYCdUa7v1AXvNQx4L",
+                "_attrs": [],
+                "$coordKey": "VjFxj9RqTSpYfZL_yZOmX"
+              },
+              {
+                "x": 856.2838703855167,
+                "y": 1644.0935745805025,
+                "_uuid": "LIJIxc_GKjGpNUujc_7nN",
+                "_attrs": [],
+                "$coordKey": "YGw8iEACpL3AtLNR9BaYq"
+              },
+              {
+                "x": 855.114902717912,
+                "y": 1724.752343645236,
+                "_uuid": "Zrnaxmi69r0Bs1lPJ5tgv",
+                "_attrs": [],
+                "$coordKey": "HQvi5-0X_8fm9Rh1pVZ0P"
+              },
+              {
+                "x": 773.2871659855734,
+                "y": 1724.752343645236,
+                "_uuid": "djx0Bv7CbPWJrdv0oErmo",
+                "_attrs": [],
+                "$coordKey": "713kE0wEMtUhLKPLKZPXm"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "gKTIXikXVwqX_ak-ru3hg",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 773.287166,
+              "y": 1644.093575,
+              "width": 82.99670400000002,
+              "height": 80.6587689999999
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5709",
+          "group_id": "",
+          "label": "快递面单",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF1521807213880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 913.8418720895411,
+                "y": 1537.7443926785154,
+                "_uuid": "nVPA_Jyr4TvEZ4USzL8fL",
+                "_attrs": [],
+                "$coordKey": "Xf4fH06wb5qLbujWfcLWQ"
+              },
+              {
+                "x": 910.2994234475703,
+                "y": 1724.9037625959684,
+                "_uuid": "u08Jc57RQIIlcezUaY-Fc",
+                "_attrs": [],
+                "$coordKey": "2I3FZ9nLiVA7m7UeuVieJ"
+              },
+              {
+                "x": 937.4581963693458,
+                "y": 1725.4941707029636,
+                "_uuid": "_cdrgEz2vDQ8x-snN6ES0",
+                "_attrs": [],
+                "$coordKey": "YqCQqBrVW8M0LZuj5X1-V"
+              },
+              {
+                "x": 941.0006450113166,
+                "y": 1537.7443926785154,
+                "_uuid": "FR0kUKaUVHTZ9ja_tkPf8",
+                "_attrs": [],
+                "$coordKey": "ycLHLA73HNvZHl6-Pke5R"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "zPka9N489NCY9pWgyMYsr",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 910.299423,
+              "y": 1537.744393,
+              "width": 30.701221999999916,
+              "height": 187.7497780000001
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25139,
+          "user_name": "xtbb标注一"
+        },
+        {
+          "track_id": "5711",
+          "group_id": "",
+          "label": "位置框",
+          "attrs": [],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 58.533105704940276,
+                "y": 472.68103728661595,
+                "_uuid": "EyywaSpuTrB4KE8kIEq9t",
+                "_attrs": [],
+                "$coordKey": "VdGsTzZg_eUCftLVc6Sps"
+              },
+              {
+                "x": 955.0477369356782,
+                "y": 459.2530648364639,
+                "_uuid": "xBZAkc91QQWxFIVzrU0HC",
+                "_attrs": [],
+                "$coordKey": "Ne_KOSEBFtmJzq6Qfyy5B"
+              },
+              {
+                "x": 969.2655901181922,
+                "y": 466.3619914277209,
+                "_uuid": "JIX0OJD78Mr-4mILzGDc8",
+                "_attrs": [],
+                "$coordKey": "-3k-EHa0ZI3BdUnK_X52b"
+              },
+              {
+                "x": 981.1138011036204,
+                "y": 482.15960607495856,
+                "_uuid": "75xUOkdYwnLoDaikv9Cqi",
+                "_attrs": [],
+                "$coordKey": "HKFukdDvAfk2NCLrtTCO0"
+              },
+              {
+                "x": 983.7507834016637,
+                "y": 1228.824771198613,
+                "_uuid": "eTgeh88FFNJmR-vWeoogw",
+                "_attrs": [],
+                "$coordKey": "XPeQ-hC77yOrtucPq1-ax"
+              },
+              {
+                "x": 972.540234088723,
+                "y": 1768.1767548100959,
+                "_uuid": "oEa5p8xc2BiOWG3_12nak",
+                "_attrs": [],
+                "$coordKey": "phjqpCsCswD-0QGYPmAS9"
+              },
+              {
+                "x": 966.3121511370892,
+                "y": 1784.3697704843437,
+                "_uuid": "49Tz_28KjxnMYmKbzHUjo",
+                "_attrs": [],
+                "$coordKey": "zyWtCzeCdkk1F2D_ctg9v"
+              },
+              {
+                "x": 937.662969559574,
+                "y": 1795.5803197972843,
+                "_uuid": "VyIVAxd9cxzVrtPOh_IVa",
+                "_attrs": [],
+                "$coordKey": "sLfwa2MZF3qDOiWusBLis"
+              },
+              {
+                "x": 397.0653693577642,
+                "y": 1789.3522368456506,
+                "_uuid": "WW5ETQfAELA5jcP1smKiY",
+                "_attrs": [],
+                "$coordKey": "XRd1XZJrH4rKKY7DmLUfb"
+              },
+              {
+                "x": 66.97697292117532,
+                "y": 1790.5978534359774,
+                "_uuid": "9Rhy5XZa8u1mPKAx5GxTy",
+                "_attrs": [],
+                "$coordKey": "x2YsF3MoKpFoDTsBdZsNo"
+              },
+              {
+                "x": 44.55587429529381,
+                "y": 1783.124153894017,
+                "_uuid": "M4f4xMimtky7yJb5Ul2fG",
+                "_attrs": [],
+                "$coordKey": "PuK7md2F_sUr7lk7r8n-c"
+              },
+              {
+                "x": 33.345324982353056,
+                "y": 1764.4399050391157,
+                "_uuid": "mo27mAk1W8QXfhEOzHeRn",
+                "_attrs": [],
+                "$coordKey": "5bL6V0ggK9zNewVmXVtOT"
+              },
+              {
+                "x": 22.134775669412303,
+                "y": 987.1751526752233,
+                "_uuid": "k2OP9YHLpzBgdYGzVnkwH",
+                "_attrs": [],
+                "$coordKey": "6m-76qQJMuS6WrGgFssVq"
+              },
+              {
+                "x": 23.380392259739054,
+                "y": 503.87591562844415,
+                "_uuid": "AIGLX0XGZju_6aYSKL1j7",
+                "_attrs": [],
+                "$coordKey": "eP0wgoRu8JLVSbrJo8FVw"
+              },
+              {
+                "x": 32.09970839202631,
+                "y": 481.45481700256266,
+                "_uuid": "90fYqTGAgpRbz-298Fl9K",
+                "_attrs": [],
+                "$coordKey": "0Zg8zIBv0o0S_g9-rnHH-"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "GvWkHoU0ZjXDQcBq5D4eN",
+            "_layerIndex": 0,
+            "bbox": {
+              "x": 22.134776,
+              "y": 459.253065,
+              "width": 961.616007,
+              "height": 1336.3272550000002
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5712",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "###X###04-X"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 787.0464524034861,
+                "y": 1748.486794711106,
+                "_uuid": "VlyIaSgpg_z1mcn5NPXkr",
+                "_attrs": [],
+                "$coordKey": "6dp2-Uq8tclA481Z3Iwao",
+                "$stickyKey": ""
+              },
+              {
+                "x": 924.3986535910651,
+                "y": 1746.470615611105,
+                "_uuid": "Z9tvE_CEviWX9YImf5cPm",
+                "_attrs": [],
+                "$coordKey": "BynmtpX0DVZ27OxT6j1-o"
+              },
+              {
+                "x": 924.146631203565,
+                "y": 1768.9006080986178,
+                "_uuid": "W7kHYEfRTxA_hpRYCOuaz",
+                "_attrs": [],
+                "$coordKey": "YQloOtrbbBvCRLD8KDF_c"
+              },
+              {
+                "x": 786.0383628534855,
+                "y": 1769.9086976486185,
+                "_uuid": "uuGPqPdScxIHk7gvDvK4Y",
+                "_attrs": [],
+                "$coordKey": "qjW0BcDTuUidLnX4wHiJr"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "MKC82nLO72ebKMwjrPZQx",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 786.038363,
+              "y": 1746.470616,
+              "width": 138.36029099999996,
+              "height": 23.438081999999895
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25650,
+          "user_name": "xtbb标注九十一"
+        },
+        {
+          "track_id": "5714",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF1521807213880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 39.66830273187343,
+                "y": 690.9289676082858,
+                "_uuid": "h4wckp7KGk-dIH_LfH_xu",
+                "_attrs": [],
+                "$coordKey": "1pwl-2gkrPZQv3PKC9XfU",
+                "$stickyKey": ""
+              },
+              {
+                "x": 66.5068104621752,
+                "y": 691.5359384651682,
+                "_uuid": "LIne8YqWQAcsIX1AF5jNP",
+                "_attrs": [],
+                "$coordKey": "VF4nJuX8NPy-tgAmrYaBx"
+              },
+              {
+                "x": 64.79440406448464,
+                "y": 889.0334763321458,
+                "_uuid": "Iipc_qXSFiFsfZZlGduD5",
+                "_attrs": [],
+                "$coordKey": "IItqn73YF6t2de8Jr3VhG"
+              },
+              {
+                "x": 37.395901701435726,
+                "y": 887.8918720670188,
+                "_uuid": "zrhd1_lEKgFQmjymmDbW4",
+                "_attrs": [],
+                "$coordKey": "TrGLvtEn6SbHtTgQpXzUI"
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "1PkeH4G5AX25I1pLFyOID",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 37.395902,
+              "y": 691.535938,
+              "width": 29.110908000000002,
+              "height": 197.49753799999996
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5715",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF1521807213880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 40.76017205146247,
+                "y": 1097.77263927061,
+                "_uuid": "uCg1kj4hP0auHwkgpUg-h",
+                "_attrs": [],
+                "$coordKey": "QeyxTrQOwA3uRght6Rrwn"
+              },
+              {
+                "x": 66.61181914638077,
+                "y": 1094.0795468284787,
+                "_uuid": "Vk1uEYPD1w4U2ez5uBs-M",
+                "_attrs": [],
+                "$coordKey": "13Tn-8SeVjuZRk6vbNtwl"
+              },
+              {
+                "x": 65.87320065795453,
+                "y": 1293.5065387035627,
+                "_uuid": "_YIAWTd3BgkkPsf1Oyv0E",
+                "_attrs": [],
+                "$coordKey": "eikB7rnkyZGiWyd9Lc0FV"
+              },
+              {
+                "x": 40.02155356303623,
+                "y": 1292.0293017267104,
+                "_uuid": "1Z7yQHDzXRigz0mnNaLSH",
+                "_attrs": [],
+                "$coordKey": "i23LDD0nMxKEwhyH4pA3C",
+                "$stickyKey": ""
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "olGRQStszqN9k6-PyWJ0J",
+            "_layerIndex": 0,
+            "$reliableScore": 0,
+            "bbox": {
+              "x": 40.760172,
+              "y": 1094.079547,
+              "width": 25.851647,
+              "height": 199.42699199999993
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        },
+        {
+          "track_id": "5716",
+          "group_id": "",
+          "label": "文本框",
+          "attrs": [
+            {
+              "name": "属性1",
+              "unique_id": "e38b6b99-cdeb-43ba-a8a2-62f04599c18d",
+              "parent_id": "",
+              "values": [
+                "SF1521807213880"
+              ],
+              "input_type": "text"
+            }
+          ],
+          "shape_data": {
+            "vertices": [
+              {
+                "x": 42.30749615300248,
+                "y": 1509.253015441852,
+                "_uuid": "rdG_1_e1auQ_-WKwtuPPf",
+                "_attrs": [],
+                "$coordKey": "Y9pbquLiDnXPH8fsCHN_T"
+              },
+              {
+                "x": 67.81533907237322,
+                "y": 1508.7892364796817,
+                "_uuid": "F1D0jCnO4K5MA9_8fhjsg",
+                "_attrs": [],
+                "$coordKey": "cqbDAY17V4TPyuPQ1x-RA"
+              },
+              {
+                "x": 69.20667595888435,
+                "y": 1693.3732634234918,
+                "_uuid": "uyPB_AWxyrf2DXYzXp4Z2",
+                "_attrs": [],
+                "$coordKey": "IWFinBXpzJXdiNvu8BWZ8"
+              },
+              {
+                "x": 45.55394888819512,
+                "y": 1695.2283792721732,
+                "_uuid": "zsWOVnWz3BOJvyMi5xmkU",
+                "_attrs": [],
+                "$coordKey": "HipV_8YbIXTTjj7kPLakc",
+                "$stickyKey": ""
+              }
+            ],
+            "_isValid": true,
+            "_isManual": true,
+            "_uuid": "-Xbh6_OJsXGRgH5_o0K6R",
+            "_layerIndex": 0,
+            "bbox": {
+              "x": 42.307496,
+              "y": 1508.789236,
+              "width": 26.89918,
+              "height": 184.58402699999988
+            }
+          },
+          "shape": "polygon",
+          "user_id": 25142,
+          "user_name": "xtbb标注二"
+        }
+      ]
+    }
+  ],
+  "annotation 1": "xtbb标注一",
+  "review 1": "xtbb标注二"
+}
