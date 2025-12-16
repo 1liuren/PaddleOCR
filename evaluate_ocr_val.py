@@ -1,4 +1,5 @@
 import os
+import argparse
 import jiwer
 from paddleocr import TextRecognition
 from tqdm import tqdm
@@ -45,10 +46,37 @@ def calculate_metrics(reference: str, hypothesis: str) -> dict:
         print(f"Error calculating CA: {e}")
         return {"ca": 0.0, "edit_distance": total_chars, "ref_len": total_chars}
 
+def build_arg_parser():
+    parser = argparse.ArgumentParser(description="Evaluate PaddleOCR recognition quality.")
+    parser.add_argument(
+        "--val-file",
+        default="BDRC/paddleocr_data/val.txt",
+        help="验证集中索引文件路径（tsv，第一列为相对路径，第二列为标签）。"
+    )
+    parser.add_argument(
+        "--data-root",
+        default="BDRC/paddleocr_data",
+        help="验证图片根目录。"
+    )
+    parser.add_argument(
+        "--result-log-file",
+        default="evaluation_details_ch_en.txt",
+        help="逐样本结果输出文件。"
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=16,
+        help="推理批大小。"
+    )
+    return parser
+
+
 def main():
-    val_file = "BDRC/paddleocr_data/val.txt"
-    data_root = "BDRC/paddleocr_data"
-    result_log_file = "evaluation_details_ch_en.txt"
+    args = build_arg_parser().parse_args()
+    val_file = args.val_file
+    data_root = args.data_root
+    result_log_file = args.result_log_file
     
     if not os.path.exists(val_file):
         print(f"Error: Validation file not found at {val_file}")
@@ -93,7 +121,7 @@ def main():
         return
 
     # 3. Batch Inference
-    batch_size = 16
+    batch_size = max(1, args.batch_size)
     total_edit_distance = 0
     total_ref_chars = 0
     total_samples = 0
