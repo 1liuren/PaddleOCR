@@ -69,6 +69,16 @@ def build_arg_parser():
         default=16,
         help="推理批大小。"
     )
+    parser.add_argument(
+        "--model-name",
+        default="PP-OCRv5_server_rec",
+        help="TextRecognition 模型名称。"
+    )
+    parser.add_argument(
+        "--model-dir",
+        default="PP-OCRv5_server_rec_infer_openpecha_ch_en",
+        help="模型权重目录。"
+    )
     return parser
 
 
@@ -115,7 +125,7 @@ def main():
     # Using parameters from inference_paddleocr.py
     print("Initializing PaddleOCR model...")
     try:
-        model = TextRecognition(model_name="PP-OCRv5_server_rec", model_dir="PP-OCRv5_server_rec_infer_openpecha_ch_en")
+        model = TextRecognition(model_name=args.model_name, model_dir=args.model_dir)
     except Exception as e:
         print(f"Failed to initialize model: {e}")
         return
